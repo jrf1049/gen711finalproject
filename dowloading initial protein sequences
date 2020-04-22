@@ -1,3 +1,4 @@
+* install python and conda
 sudo apt-get -y install ruby build-essential python python-pip gdebi-core r-base git
 mkdir anaconda
 cd anaconda
@@ -8,12 +9,47 @@ source ~/.bashrc
 conda update -n base conda
 conda create -y --name gen711finalproject
 conda activate gen711finalproject
+
+* install tmux
 conda install -c conda-forge tmux 
 tmux new -s finalproject
+
+* change to home directory, make new directory to hold downloaded sequences for final project
 cd
 mkdir finalprojectfastasequences
 cd finalprojectfastasequences
-wget –O NP_989500.1.fasta ‘http://www.ncbi.nlm.nih.gov/search/api/sequence/NP_989500.1/? report=fasta'
+ 
+* download files (replace NP_989500.1.fasta with desired name of file and replace NP_989500.1 with NCBI accession number 
+wget –O NP_989500.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/NP_989500.1/? report=fasta'
+
+* to view downloaded file, confirm that it looks as it should
 cat -O NP_989500.1.fasta
-wget –O XP_019673495.1.fasta ‘http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_019673495.1/? report=fasta'
-wget –O AAC36493.1.fasta ‘http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC36493.1/? report=fasta'
+
+* download the rest of the desired files
+wget –O XP_019673495.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_019673495.1/? report=fasta'
+wget –O AAC36493.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC36493.1/? report=fasta'
+wget –O XP_024835433.1.fasta ‘http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_024835433.1/? report=fasta'
+wget –O AAC37594.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC37594.1/? report=fasta'
+wget –O AAG43492.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAG43492.1/? report=fasta'
+wget –O XP_028992611.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_028992611.1/? report=fasta'
+wget -O NP_001013434.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/NP_001013434.1/? report=fasta'
+wget -O AAD00168.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAD00168.1/? report=fasta'
+
+* combine downloaded files into one file
+cat *.fasta.txt > combined.fasta
+
+* download mafft to perform multiple sequence alignment
+wget https://mafft.cbrc.jp/alignment/software/mafft_7.464-1_amd64.deb
+
+* install mafft package
+sudo dpkg -i mafft_7.464-1_amd64.deb
+
+* check for location of MAFFT and check for version number
+which mafft
+mafft --version
+
+* run mafft to make multiple sequence alignment
+mafft combined.fasta > finalalign.fasta
+
+* view multiple sequence alignment
+more finalalign.fasta
