@@ -53,3 +53,13 @@ mafft combined.fasta > finalalign.fasta
 
 * view multiple sequence alignment
 more finalalign.fasta
+
+* navigate to https://www.ebi.ac.uk/Tools/msa/mview/
+* select protein in box 1, copy contents of finalalign.fasta into the box, and run job to create sequence
+
+* make phylogenetic tree
+iqtree -s finalalign.fasta -m LG -bb 1000 -pre iqtreeoutput.fasta
+
+* view phylogenetic tree
+cat iqtreeoutputcontree.fasta CHECK FILE NAME!
+* navigate to FigTree and copy and paste in contents of iqtreeoutputcontree.fasta
