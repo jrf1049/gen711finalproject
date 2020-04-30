@@ -36,7 +36,7 @@ wget -O NP_001013434.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/NP
 wget -O AAD00168.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAD00168.1/? report=fasta'
 
 * combine downloaded files into one file
-cat *.fasta.txt > combined.fasta
+cat *.fasta > combined.fasta
 
 * download mafft to perform multiple sequence alignment
 wget https://mafft.cbrc.jp/alignment/software/mafft_7.464-1_amd64.deb
