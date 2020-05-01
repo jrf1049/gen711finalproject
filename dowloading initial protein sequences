@@ -26,14 +26,15 @@ wget –O NP_989500.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/NP_
 cat -O NP_989500.1.fasta
 
 * download the rest of the desired files
-wget –O XP_019673495.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_019673495.1/? report=fasta'
-wget –O AAC36493.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC36493.1/? report=fasta'
-wget –O XP_024835433.1.fasta ‘http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_024835433.1/? report=fasta'
-wget –O AAC37594.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC37594.1/? report=fasta'
-wget –O AAG43492.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAG43492.1/? report=fasta'
-wget –O XP_028992611.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_028992611.1/? report=fasta'
-wget -O NP_001013434.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/NP_001013434.1/? report=fasta'
-wget -O AAD00168.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAD00168.1/? report=fasta'
+wget –O XP_019673495.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_019673495.1/? report = fasta'
+wget –O AAC36493.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC36493.1/? report = fasta'
+wget –O XP_024835433.1.fasta ‘http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_024835433.1/? report = fasta'
+wget –O AAC37594.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAC37594.1/? report = fasta'
+wget –O AAG43492.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAG43492.1/? report = fasta'
+wget –O XP_028992611.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_028992611.1/? report = fasta'
+wget -O NP_001013434.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/NP_001013434.1/? report = fasta'
+wget -O AAD00168.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/AAD00168.1/? report = fasta'
+wget -O XP_028557582.1.fasta 'http://www.ncbi.nlm.nih.gov/search/api/sequence/XP_028557582.1/? report = fasta'
 
 * combine downloaded files into one file
 cat *.fasta > combined.fasta
@@ -61,5 +62,5 @@ more finalalign.fasta
 iqtree -s finalalign.fasta -m LG -bb 1000 -pre iqtreeoutput.fasta
 
 * view phylogenetic tree
-cat iqtreeoutputcontree.fasta CHECK FILE NAME!
+cat iqtreeoutput.fasta.contree
 * navigate to FigTree and copy and paste in contents of iqtreeoutputcontree.fasta
