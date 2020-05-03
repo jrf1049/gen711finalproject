@@ -64,3 +64,980 @@ iqtree -s finalalign.fasta -m LG -bb 1000 -pre iqtreeoutput.fasta
 * view phylogenetic tree
 cat iqtreeoutput.fasta.contree
 * navigate to FigTree and copy and paste in contents of iqtreeoutputcontree.fasta
+
+Results
+
+Link to multiple sequence alignment results: 
+https://www.ebi.ac.uk/Tools/services/rest/mview/result/mview-I20200503-203117-0975-88322313-p2m/aln-html
+
+Multiple Sequence Alignment
+Reference sequence (1): XP_019673495.1
+Identities normalised by aligned length.
+Colored by: identity
+                     cov    pid    1 [        .         .         .         .         :         .         .         . 80  
+ 1 XP_019673495.1 100.0% 100.0%      MDLSADRVEEVQSVLNAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 2 NP_989500.1     86.3%  30.0%      MDLSVIAIGDVQNVLSAMQKNLECPVCLDVIKEP---------------------VSTKCDHV----FCRFCMFKLLSRK     
+ 3 AAG43492.1      99.2%  75.8%      MDLSALRVEEVQNVINAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 4 XP_024835433.1  95.6%  70.8%      MDLSADHVEEVQNVLNAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 5 NP_001013434.1  99.8%  81.6%      MDLSADRVEEVQNVLNAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 6 XP_028992611.1  75.3%  12.4%      -----------------MVVFENCSVLLELKTLPFKEKKKLRAAITENGGSISFVVNKQCSLVVTSDLCSLSSNRLRSVQ     
+ 7 AAC37594.1      99.2%  75.3%      MDLSALRVEEVQNVINAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 8 XP_028557582.1  83.1%  28.6%      MDSSIPSIAEVRGILLAMQKNLECPICLEVMKEP---------------------VSTNCAHI----FCSFCMFKLLK-Q     
+ 9 AAD00168.1      96.1%  53.3%      MDLSAVQIQEVQNVLHAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+10 AAC36493.1      96.3%  53.0%      MDLSAVRIQEVQNVLHAMQKILECPICLELIKEP---------------------VSTQCDHI----FCKFCMLKLLN-Q     
+   consensus/100%                    .................M.h..pCslhL-lhp.P.....................VsppCshl....hCphs..+Lhp.p     
+   consensus/90%                     MD.Sh.tlt-Vpsll.AMQK.LECPlCLElhKEP.....................VSTpCsHl....FCpFCMhKLLs.Q     
+   consensus/80%                     MDLSs.pltEVQsVlpAMQKhLECPICLELIKEP.....................VSTpCDHI....FC+FCMhKLLs.Q     
+   consensus/70%                     MDLSA.plpEVQNVLpAMQKILECPICLELIKEP.....................VSTKCDHI....FCKFCMLKLLN.Q     
+
+                     cov    pid   81          .         1         .         .         .         .         :         . 160 
+ 1 XP_019673495.1 100.0% 100.0%      RKGPSQCPLCKNDITKRSLQESTRFSQLVEELLNIIHAFELD-------------------------TGLQ---------     
+ 2 NP_989500.1     86.3%  30.0%      KKGVIQCPLCKTEVTKRSLKENSRFKQLIEGLLEAISAFELD-------------------------TGVK---------     
+ 3 AAG43492.1      99.2%  75.8%      KKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLD-------------------------TGLE---------     
+ 4 XP_024835433.1  95.6%  70.8%      KKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIIHAFELD-------------------------TGLQ---------     
+ 5 NP_001013434.1  99.8%  81.6%      RKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIIHAFELD-------------------------TGLQ---------     
+ 6 XP_028992611.1  75.3%  12.4%      KH---RTPVVRLDYVYSCLSSGVRLP---------VDAFQLDPPSPPPAPSSPELGSIPHQDVSQREEGQERNGNVLEKF     
+ 7 AAC37594.1      99.2%  75.3%      KKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLD-------------------------TGLE---------     
+ 8 XP_028557582.1  83.1%  28.6%      KKGAVRCPLCNAKVTKRSLWEDVRFKQVIKVVLEAIRAFEHD-------------------------TGLK---------     
+ 9 AAD00168.1      96.1%  53.3%      KKGPSQCPLCKNEITKRSLQGSTRFSQLAEELLRIMAAFELD-------------------------TGMQ---------     
+10 AAC36493.1      96.3%  53.0%      KKGPSQCPLCKNEITKRSLQGSARFSQLVEELLKIIDAFELD-------------------------TGMQ---------     
+   consensus/100%                    ++...psPlsp.chshpsL.tssRh..........htAFphD.........................pG.p.........     
+   consensus/90%                     +KGs.pCPLC+s-lTKRSLptssRFpQlhc.lLphlpAFpLD.........................TGhp.........     
+   consensus/80%                     KKGssQCPLCKs-lTKRSLppusRFsQLlEtLLchIpAFpLD.........................TGhp.........     
+   consensus/70%                     KKGPSQCPLCKN-ITKRSLQESoRFSQLlEELLcIIpAFELD.........................TGlp.........     
+
+                     cov    pid  161          .         .         .         2         .         .         .         . 240 
+ 1 XP_019673495.1 100.0% 100.0%      ------------FANSYNFSKKENN--SPEHLKEEVSIIQSMGYRNRAKRLRQSEPENPNLQETSLSVQLSNFGIV-RSL     
+ 2 NP_989500.1     86.3%  30.0%      ------------FLSSRYFPKTSTEVATAELLGNNSSVIQSKGFRNRKRGAKENRQDSCTL-EANVDPQLTDNRVKGSSV     
+ 3 AAG43492.1      99.2%  75.8%      ------------YANSYNFAKKENN--SPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQETSLSVQLSNLGTV-RTL     
+ 4 XP_024835433.1  95.6%  70.8%      ------------FANSYNFSRKEDN--SPEHLKEEVSIIQSMGYRNRAKRLWQSEPENPTLQETSLTVELSNLGIV-RSL     
+ 5 NP_001013434.1  99.8%  81.6%      ------------FADSYNFSKKENN--SPEHLKEEVSIIQSMGYRNRAKRLRQSEPENPTL-ETSLSVQLSNLGIV-RSL     
+ 6 XP_028992611.1  75.3%  12.4%      RIFTERDFNLPPFPDDFQVAKYSVFEKGNSGTWSVLELQSARGGNGQRYRVVCYLKDDIGTKKAAVKDKLVFVSTSEDAL     
+ 7 AAC37594.1      99.2%  75.3%      ------------YANSYNFAKKENN--SPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQETSLSVQLSNLGTV-RTL     
+ 8 XP_028557582.1  83.1%  28.6%      ------------FSDDLCFPKKALEDASASVSWQEKQVIDCKGYRDRLKRVKEVKKRNAGL-EGETSSLPLDGGTR-RSL     
+ 9 AAD00168.1      96.1%  53.3%      ------------LTNGFSFSKKRNN--SCERLNEEASIIQSVGYRNRVRRLPQVEPGNATL-KDSLGVQLSNLGIV-RSV     
+10 AAC36493.1      96.3%  53.0%      ------------CANGFSFSKKKNS--SSELLNEDASIIQSVGYRNRVKKLQQIESGSATL-KDSLSVQLSNLGIV-RSM     
+   consensus/100%                    ............h.ssh.hs+ht....ssph..p..pl.pshGhpsphhth.p...ts.sh.csthts.....th..psh     
+   consensus/90%                     ............hssshpFsKppsp..osphh.pphplIpuhGaRsRh++l.p.c.tsssL.csslsspLsshuhh.col     
+   consensus/80%                     ............assuasFuKKpsp..SsEhLtp-sSlIQShGYRNRh+Rlhpsc.csssL.csulsspLoshGhs.Rol     
+   consensus/70%                     ............ausuasFuKKcss..SsEtLp-EsSIIQShGYRNRsKRLhQsEs-NsoL.EsSLoVQLSNlGhV.RSL     
+
+                     cov    pid  241          :         .         .         .         .         3         .         . 320 
+ 1 XP_019673495.1 100.0% 100.0%      RTKQQIQPQNKSVYIELGSDSSEDTVNKASY-------------FSAEDD-----ELLGITPQGA----RAEASLNPAKK     
+ 2 NP_989500.1     86.3%  30.0%      RSKKQKCGIEKGVLIELGTDSSEEHFILASS-------------TGLEDK-----EELE-EPKSAE-KYGSSCNTQPLKL     
+ 3 AAG43492.1      99.2%  75.8%      RTKQRIQPQKKSVYIELGSDSSEDTVNKATY-------------CSVGDQ-----ELLQITPQGT----RDEISLDSAKK     
+ 4 XP_024835433.1  95.6%  70.8%      RTKQQTQSQNKSVYIELGSDSSEDTVNKASY-------------FSVGDH-----ELLEITPQGA----KAKTNLNPAEK     
+ 5 NP_001013434.1  99.8%  81.6%      RTKQQIQPQNKSVYIELGSDSSEDTVNKASS-------------CSVGDD-----E-LEITSQGA----RAEASLNPAKK     
+ 6 XP_028992611.1  75.3%  12.4%      QVFQALSEALQADGLQLRTDNPPEAQDLGSGPLQQLLLEEKLSTGSLSREVGVFVELLWTEALGSL---GNILSININKL     
+ 7 AAC37594.1      99.2%  75.3%      RTKQRIQPQKTSVYIELGSDSSEDTVNKATY-------------CSVGDQ-----ELLQITPQGT----RDEISLDSAKK     
+ 8 XP_028557582.1  83.1%  28.6%      RKKNNS---SKAAVFEIGSDSSEDAFKKTDTI----------RCVSLRRN-----YPARVDEGCAKNESPSPFHMEFSEL     
+ 9 AAD00168.1      96.1%  53.3%      KKNRQTQPRKKSVYIELDSDSSEETVTKPGD-------------CSVRDQ-----ELLQTAPQEA----GDEGKLHSAEE     
+10 AAC36493.1      96.3%  53.0%      KKNRQTQPQNKSVYIALESDSSEERVNAPDG-------------CSVRDQ-----ELFQIAPGGA----GDEGKLNSAKK     
+   consensus/100%                    p..pt.....pushhtltoDss.-t..hss..............huhtcp.......h..t..ts.....s.hphp..c.     
+   consensus/90%                     +pppphp..ppushlpLtoDSSE-thphss..............hSltcp.....E.hthtstss....ts.hphp.sch     
+   consensus/80%                     +pppphpstpKuVhIELsSDSSE-shstss..............sSltDp.....E.Lphsstuu....tsphplpsuch     
+   consensus/70%                     RsKpphQsppKSVYIELGSDSSE-sVsKuoh.............sSltDp.....ELLplsPpGA....tschsLssAKc     
+
+                     cov    pid  321          .         .         :         .         .         .         .         4 400 
+ 1 XP_019673495.1 100.0% 100.0%      ASCE--------------------FSE-DITNIEHRQPSNKDLTATEKHATEK----------HPEKYQ----GISVSNL     
+ 2 NP_989500.1     86.3%  30.0%      GAKEIILPNVIGETDFL----KEALDKKSMLNITEHIKCN-QVNTIEGQSSP----------------------LNVFDA     
+ 3 AAG43492.1      99.2%  75.8%      AACE--------------------FSETDVTNTEHHQPSNNDLNTTEKRATER----------HPEKYQ----GSSVSNL     
+ 4 XP_024835433.1  95.6%  70.8%      AACE--------------------FSEKDITNTEHHQLSIKDLITTQKHATET----------HPEKYQ----GISVSDF     
+ 5 NP_001013434.1  99.8%  81.6%      AACE--------------------FSG-DITNIEHHQSSNKDLTTTEKHATKK----------HPEKYQ----GISVSNL     
+ 6 XP_028992611.1  75.3%  12.4%      SLND------VSRAEGLLLQAQRNLKE---GNHTEAITLLKDAYTLLPHNAPQLLPTVKLISQKLDLCQLIRDVLSVSEM     
+ 7 AAC37594.1      99.2%  75.3%      AACE--------------------FSETDVTNTEHHQPSNNDLNTTEKRAAER----------HPEKYQ----GSSVSNL     
+ 8 XP_028557582.1  83.1%  28.6%      SAEDETPLNILGVCDY--------LEEPG--NTEG--ASIGKLEIPEKNAAV-------------EKSQ----GLSSPD-     
+ 9 AAD00168.1      96.1%  53.3%      AACE--------------------FSE-GIRNIEHHQCSD-DLNPTENHATER----------HPEKCQ----SISISNV     
+10 AAC36493.1      96.3%  53.0%      AACD--------------------FSE-GIRNIEHHQCSDKDLNPTENHATER----------HPEKCP----RISVANV     
+   consensus/100%                    u.p-....................hpt....Nhpt......ph.....pss........................s..p.     
+   consensus/90%                     uup-....................hpc.s.hNhpct..s..cl.shptpus..............-h........Slssh     
+   consensus/80%                     uAs-....................hsE.shtNhEc+.sS.tDLpssEp+As.p..........+.EKhQ....slSVush     
+   consensus/70%                     AACE....................FSE.slpNhEHHQsSspDLssTEp+Aocp..........HPEKhQ....ulSVSsh     
+
+                     cov    pid  401          .         .         .         .         :         .         .         . 480 
+ 1 XP_019673495.1 100.0% 100.0%      H----VEPCATN----------TRASSLQHENSSLLLTKGRMNVEKAEFCNESKQPGVARSQQSR---------------     
+ 2 NP_989500.1     86.3%  30.0%      D----LLTGQRDG--------IGNASPLKNDT-SFLKNAEEMDVEETQCSHKNQELDLEDSSEGR---------------     
+ 3 AAG43492.1      99.2%  75.8%      H----VEPCGTN----------THASSLQHENSSLLLTKDRMNVEKAEFCNKSKQPGLARSQHNR---------------     
+ 4 XP_024835433.1  95.6%  70.8%      H----VEPCGTD----------THASSLQHENSSLLLTENRLNVEKAEFCNKSKQPVLVKSQQSR---------------     
+ 5 NP_001013434.1  99.8%  81.6%      H----VEPCGTN----------THASSLQHENSSLLLTKHRMNVEKAEICNNSKQPGLARSQQSR---------------     
+ 6 XP_028992611.1  75.3%  12.4%      TLRYPVVSCVGKYRALRCSIEDVPSSSSEFQAVTALLWGSNLRVKQVLRVSRGVELQMFKSEIGNIQTLLHSSNPTNFVG     
+ 7 AAC37594.1      99.2%  75.3%      H----VEPCGTN----------THASSLQHENSSLLLTKDRMNVEKAEFCNKSKQPGLARSQHNR---------------     
+ 8 XP_028557582.1  83.1%  28.6%      -------PCLGKH--------DRNSNSMSEGGSCSLLNM-------AQLADEATKP-TADKQAGH---------------     
+ 9 AAD00168.1      96.1%  53.3%      C----VEPCGTD----------AHASSLQPETSSLLLIEDRMNAEKAEFCNKSKQPGIAVSQQSR---------------     
+10 AAC36493.1      96.3%  53.0%      H----VEPCGTD----------ARASSLQRGTRSLLFTEDRLDAEKAEFCDRSKQSGAAVSQQSR---------------     
+   consensus/100%                    .......ss.tp..........h.uss.p.ts.s.Lh.........s.hspps.p..h..pp.sp...............     
+   consensus/90%                     p....l.sChsp..........spuSShp.ts.ohLh.ttphpscpsphsscupp..hh.Spts+...............     
+   consensus/80%                     p....V.PCsss..........spASSLpppssShLLstpchssEcAphsscuppsshscSQpuR...............     
+   consensus/70%                     c....VEPCuTs..........s+ASSLQc-sSSLLLscsRhsVEKAEhCs+SKQPslAcSQpuR...............     
+
+                     cov    pid  481          .         5         .         .         .         .         :         . 560 
+ 1 XP_019673495.1 100.0% 100.0%      -------------------------------WAESKETCNDRQTPSTE--KKVVLNADPLC-R-----RKLSKQKSPCSD     
+ 2 NP_989500.1     86.3%  30.0%      -------------------------------LDKIKE--KDICVPSVEDVEMCEPMDDSLLEKEPPVEKPLQPKIPHCP-     
+ 3 AAG43492.1      99.2%  75.8%      -------------------------------WAGSKETCNDRRTPSTE--KKVDLNADPLCER-----KEWNKQKLPCSE     
+ 4 XP_024835433.1  95.6%  70.8%      -------------------------------WAESKGTCKDRQIPSTE--KKIVLNTDPLYRR-----KELRKQKPACPD     
+ 5 NP_001013434.1  99.8%  81.6%      -------------------------------WAESKETCNDRQIPSTE--KKVVVNADLLCGR-----KELNKQKPPHSD     
+ 6 XP_028992611.1  75.3%  12.4%      ILSRGLLLPRVGVEHHGIERTDVGNLGSGIYFSDAISTCLKYSTPSVTDGSRLLL----VCEVALGSCRHLHRRDCTLTQ     
+ 7 AAC37594.1      99.2%  75.3%      -------------------------------WAGSKETCNDRRTPSTE--KKVDLNADPLCER-----KEWNKQKLPCSE     
+ 8 XP_028557582.1  83.1%  28.6%      -------------------------------DAGNVST----GLPSGH--KHV------LCEN-----EEQLLQSQTSPE     
+ 9 AAD00168.1      96.1%  53.3%      -------------------------------WAASKGTCNDRQVPSTG--EKVGPNADSLSDR-----EKWTHPQSLCPE     
+10 AAC36493.1      96.3%  53.0%      -------------------------------WADSKETCNGRPVPRTE--GKADPNVDSLCGR-----KQWNHPKSLCPE     
+   consensus/100%                    ................................st.ht......hPpst..thh......l........c.........s.     
+   consensus/90%                     ...............................hutshtT..ththPSsp..p+h......Lhtp.....cphph.p..psp     
+   consensus/80%                     ...............................aAtuKpTCpchphPSsc..c+l...sD.Lst+.....+chp+pp..ss-     
+   consensus/70%                     ...............................WAtSKpTCpDRpsPSTE..cKls.NsDsLCcR.....+chp+pcssCs-     
+
+                     cov    pid  561          .         .         .         6         .         .         .         . 640 
+ 1 XP_019673495.1 100.0% 100.0%      SPRDSQDVPWITLNSSIQ------------------KVNEWFSRSDEMLTSDDSHDEGSESNPGVAGA-EVPNVVDGYSG     
+ 2 NP_989500.1     86.3%  30.0%      ---TLNEVSTKGLNQSIQ------------------KVNEWFSKSSRILSSSSSQNDHAEA-TDASGEGDISLS-DKDSC     
+ 3 AAG43492.1      99.2%  75.8%      NPRDTEDVPWITLNSSIQ------------------KVNEWFSRSDELLGSDDSHDGGSESNAKVADVLDVLNEVDEYSG     
+ 4 XP_024835433.1  95.6%  70.8%      SPGDSQDVPWVTLNNSIQ------------------KVNDWFSRSDEILTSDDSCDGGSESNNEVAGAVEIPNKVDGYSG     
+ 5 NP_001013434.1  99.8%  81.6%      SPRDSQDVPWITLNSSIR------------------KVNEWFSRSDEILTSDDSHDRGSELNTEVGGAVEVPNEVGEYSG     
+ 6 XP_028992611.1  75.3%  12.4%      APEGHHSVHGVQRTPNVHSEFEDDEYVVYSPDQVKLKYVIQFSLEGEELKEFSPVFFTSAEHCLVPMDQEVYMEDDRVES     
+ 7 AAC37594.1      99.2%  75.3%      NPRDTEDVPWITLNSSIQ------------------KVNEWFSRSDELLGSDDSHDGESESNAKVADVLDVLNEVDEYSG     
+ 8 XP_028557582.1  83.1%  28.6%      RP--LSQVSGKKLIRSIQ------------------KVKAWLSKSKEGLSPRSLQDTHA---QEVDQDPDLS---DGDSL     
+ 9 AAD00168.1      96.1%  53.3%      NSGATTDVPWITLNSSVE------------------KVNEWFSRTGEMLTSDSASARRHESNAEAAVVLEVSNEVDGGFS     
+10 AAC36493.1      96.3%  53.0%      NSGATTDVPWITLNSSIQ------------------KVNEWFSRTGEMLTSDNASDRRPASNAEAAVVLEVSNEVDGCFS     
+   consensus/100%                    .....ppV.hhth..slp..................Kh...hShptc.Lt..s....t......ss...-l....st...     
+   consensus/90%                     ts.s.ppVshhpLspSlp..................KVstWFS+osEhLsspsspsttst..stss.s.-l....Dt..s     
+   consensus/80%                     sstspp-VshlsLNsSIp..................KVN-WFS+osEhLsScsupsttuttpscsuss.-l..psDthpu     
+   consensus/70%                     sPtsopDVPWlTLNsSIQ..................KVNEWFSRSsEhLoSDsupDttuEuNscVussh-VsNcVDthSu     
+
+                     cov    pid  641          :         .         .         .         .         7         .         . 720 
+ 1 XP_019673495.1 100.0% 100.0%      SSE-----KIDLMASD----PHDALICESE-----------RVHTKPVESNIEDK----------------------IFG     
+ 2 NP_989500.1     86.3%  30.0%      ISE-----KTNPIVDS----VEFAVIERNK-----------R-WTKQTTYSIEDK----------------------IFG     
+ 3 AAG43492.1      99.2%  75.8%      SSE-----KIDLLASD----PHEALICKSE-----------RVHSKSVESNTEDK----------------------IFG     
+ 4 XP_024835433.1  95.6%  70.8%      SSE-----KINLMASD----PHGTLI--HE-----------RVHSKPVESNIEDK----------------------IFG     
+ 5 NP_001013434.1  99.8%  81.6%      SSE-----KIDLMASD----PQDAFICESE-----------RVHTKPVGGNIEDK----------------------IFG     
+ 6 XP_028992611.1  75.3%  12.4%      VTSLKEDVKVGLLDSSGQQLPLEAVHVKGKLIDLLSQVIIFQKYTNTSSVPIEAKYVFPLDESAAVCGFEAFINGKHIVG     
+ 7 AAC37594.1      99.2%  75.3%      SSE-----KIDLLASD----PHEALICKSE-----------RVHSKSVESNIEDK----------------------IFG     
+ 8 XP_028557582.1  83.1%  28.6%      VSQ-----KTEQIGYQ----KVFTVECEGD-----------RYLPKPVASKAEDK----------------------LFG     
+ 9 AAD00168.1      96.1%  53.3%      SSR-----KTDLVTPD----PHHTLMCKSG-----------RDFSKPVEDNISDK----------------------IFG     
+10 AAC36493.1      96.3%  53.0%      SSK-----KIDLVAPD----PDNAVMCTSG-----------RDFSKPVENIINDK----------------------IFG     
+   consensus/100%                    .op.....Kht.hs.p.......sh...tt...........p.hsp.st..hpsK......................lhG     
+   consensus/90%                     sSp.....Khs.hsss....s..slh.pst...........R.aoKssts.hpDK......................IFG     
+   consensus/80%                     sSc.....KhsLhsss....Pptslhscuc...........R.aoKsVpssIEDK......................IFG     
+   consensus/70%                     SSc.....Kl-LlusD....PcpAlhCcuc...........RsaoKsVpssIEDK......................IFG     
+
+                     cov    pid  721          .         .         :         .         .         .         .         8 800 
+ 1 XP_019673495.1 100.0% 100.0%      KTYRRKASLPNLSHTSEDLIIGACAIEPQITQAYPLTN---------KTKRKRRSTAGLHPEDFIKK---VDLAIVQKTP     
+ 2 NP_989500.1     86.3%  30.0%      KTYER-GRKSNPSTILRD-ILPATKKEDAAAEEGCLNNSRK-----DRLKRKRKSACILQPEDFIKK---KDLEEADRCP     
+ 3 AAG43492.1      99.2%  75.8%      KTYRRKASLPNLSHVTENLIIGAFVTEPQIIQERPLTN---------KLKRKRRATSGLHPEDFIKK---ADLA-VQKTP     
+ 4 XP_024835433.1  95.6%  70.8%      KTYRRKSSLPNFSHIAEDLILGAFTVEPQITQEQPLTN---------KLKCKRRGTSGLQPEDFIKK---VDLTIVPKTP     
+ 5 NP_001013434.1  99.8%  81.6%      KTYRRKASLPKVSHTTEVLTIGACAIEPQTMQTHPFMN---------KAEHKRRTTSSLHPEDFIKK---VELGIVPKTP     
+ 6 XP_028992611.1  75.3%  12.4%      QVKEKETARKEYKQAVEK-GHGAYLMD----QDAP-------DVFTISVGNLPPGATVLIKVTFVSELIVKDGSVFFSLP     
+ 7 AAC37594.1      99.2%  75.3%      KTYRKKASLPNLSHVTENLIIGAFVTEPQIIQERPLTN---------KLKRKRRPTSGLHPEDFIKK---ADLA-VQKTP     
+ 8 XP_028557582.1  83.1%  28.6%      RTYKRKRKSTPLWNKRETVCIQA--------KEGIAMNTESCDAPVKRLSRKRKATSELLPDDFIRR---QDGEVNSRRP     
+ 9 AAD00168.1      96.1%  53.3%      KSYQRKGSRPHLNHVTE--IIGTFITEPQITQEQPFTN---------KLKRKR--STSLQPEDFIKK---ADSAGVQRTP     
+10 AAC36493.1      96.3%  53.0%      KTYQRKGSRPHLNHVTE--IIGTFTTEPQIIQEQPFTN---------KLKRKR--STCLHPEDFIKK---ADLTVVQRIS     
+   consensus/100%                    pshp+.tt.....ph.c..hh.s........pt..............phtph...ss.L...sFlpc....-.t...phs     
+   consensus/90%                     +oYp+csphsphpphhE..hlsshhh-....pptsh.N.........+hppKR..ss.L.P-DFI++...hDht.s.+hP     
+   consensus/80%                     KTYcRKuuhsphsphsE..hlGAhhhEsthhQ-tPhhN.........+lc+KR.soosLpPEDFIKK...hDhs.s.+pP     
+   consensus/70%                     KTYcRKuShPplsHssEs.IIGAhhhEPQhhQEtPhsN.........KLKRKR+soosLpPEDFIKK...sDLshVp+sP     
+
+                     cov    pid  801          .         .         .         .         :         .         .         . 880 
+ 1 XP_019673495.1 100.0% 100.0%      EKLIEGTDRIGQNGHVMNRTNNGPENGTKGDY------------VQKEKNAKPTESLEKESAFRTKAEPISSNISNMESE     
+ 2 NP_989500.1     86.3%  30.0%      QGIKSSLGDAEKE--------KCDENSAVKENP----------LLEKRKGSTLAEFKERGLQWKNAAEKVSGKCSDGQLE     
+ 3 AAG43492.1      99.2%  75.8%      EMINQGTNQMEQNGQVMNITNSGHENKTKGDS------------IQNEKNPNPIESLEKESAFKTKAEPISSSISNMELE     
+ 4 XP_024835433.1  95.6%  70.8%      EKMTEGTDQTEQKCHGMNITSDGHENKTKRDY------------VQKEQNANPAESLEKESVFRTEAEPISISISNMELE     
+ 5 NP_001013434.1  99.8%  81.6%      EKLIEGINQIKRDGHVINITNNGPENETEGDY------------VQKEKNANPTESLEKESAFRTKTEPMSSRISNMELE     
+ 6 XP_028992611.1  75.3%  12.4%      GSVA-----------------PWKEKAALNQTTQV--------TVEK-------------------VCVTDASASSREFS     
+ 7 AAC37594.1      99.2%  75.3%      EMINQGTNQTEQNGQVMNITNSGHENKTKGDS------------IQNEKNPNPIESLEKESAFKTKAEPISSSISNMELE     
+ 8 XP_028557582.1  83.1%  28.6%      ---------------------GGDEDTALEEGGQAPALVVDSPVADQKEVELPTEFPAKE------------GLSVLETD     
+ 9 AAD00168.1      96.1%  53.3%      DNINQGTDLMEPNEQAVSTTSNCQENQIAGSN------------LQKEKSAHPTESLRKEPASTAGAKSISNSVSDLEVE     
+10 AAC36493.1      96.3%  53.0%      ENLNQGTDQMEPNDQAMSITSNGQENRATGND------------LQRGRNAHPIESLRKEPAFTAKAKSISNSISDLEVE     
+   consensus/100%                    ......................h.Epth.tp.............hpp.........................thSshp.p     
+   consensus/90%                     t.h..................ss.Estshtp.............lpptps...hE..t+t......sp.hs.phSshEh-     
+   consensus/80%                     p.l.puhs.ht.p........sspENpshtp.............lppccsspPhE.hcKE...pstscshSsslSshEhE     
+   consensus/70%                     -tltpGhsphc.ptpshshTssGpENpsts-s............lQ+c+sspPhESLcKEssapstAcslSsulSshElE     
+
+                     cov    pid  881          .         9         .         .         .         .         :         . 960 
+ 1 XP_019673495.1 100.0% 100.0%      LNSHSS----RAPKENR---------LRR----KSST-----------------RHMRALELV---VNRNPSPPDHT---     
+ 2 NP_989500.1     86.3%  30.0%      LNNSDQ----KSTK-NA---------CSTAKGCRHST-----------------RTRCAIH-L---VDRNPGSFDLA---     
+ 3 AAG43492.1      99.2%  75.8%      LNIHNS----KAPKKNR---------LRR----KSST-----------------RHIHALELV---VSRNLSPPNCT---     
+ 4 XP_024835433.1  95.6%  70.8%      LNIHRS----KAPK-NR---------LKR----KSST-----------------RKIPELELV---VSRNPSLPNHT---     
+ 5 NP_001013434.1  99.8%  81.6%      LNSSSS----KAPKKNR---------LRR----KSSA-----------------RHTCALEFV---VNRNLNPPDHS---     
+ 6 XP_028992611.1  75.3%  12.4%      LDMSVE----MPYEISRLQCLTHKVHVKR-TDCKAVL-SVLPGEVMGPEGFQLSVTLSEVHLPRMWVEKHPDKDSQACML     
+ 7 AAC37594.1      99.2%  75.3%      LNIHNS----KAPKKNR---------LRR----KSST-----------------RHIHALELV---VSRNLSPPNCT---     
+ 8 XP_028557582.1  83.1%  28.6%      LNEPSQSICLKSPESNRN-------HLKK----KSNTLSKIRR--------QLIKPVGELQLM---MDRSSRSPEKA---     
+ 9 AAD00168.1      96.1%  53.3%      LNVHSS----KAPKKNR---------LRR----KSSI-----------------RCALPLE-P---ISRNPSPPTCA---     
+10 AAC36493.1      96.3%  53.0%      LNVHSS----KAPKKNR---------LRR----KST------------------RCVLPLE-P---ISRNPSPPTCA---     
+   consensus/100%                    Ls...p....hs.c.st.........hpp....+ts..................h.h..lp.....hp+p.t..p.s...     
+   consensus/90%                     LN.psp....+usc.NR.........l++....Kush.................+ph..lc.....lsRs.s.ssps...     
+   consensus/80%                     LN.psp....KuPK.NR.........L+R....KSoh.................RphhtLc.s...lsRN.ssPsps...     
+   consensus/70%                     LN.psS....KAPKpNR.........L+R....KSSs.................RphtsLEhs...VsRNsusPsps...     
+
+                     cov    pid  961          .         .         .         0         .         .         .         . 1040
+ 1 XP_019673495.1 100.0% 100.0%      ----ELQIDSCSSSEEMV----KRKSSEQMLVRHSKTLQLVENKEPAPGAKKRNKPSKQINKRLASNTFPELNL----TN     
+ 2 NP_989500.1     86.3%  30.0%      ----EPLINSYPSNEEP-----SKADCERRQVRRSRRLQLLSEEIT-----KETGKMRVIKEAKNSDSGPEGSVFGVERN     
+ 3 AAG43492.1      99.2%  75.8%      ----ELQIDSCSSSEEI-----KKKKYNQMPVRHSRNLQLMEDKEPATGVKKSNKPNEQTSKRHDSDTFPELKL----TN     
+ 4 XP_024835433.1  95.6%  70.8%      ----ELPIDSSSSNEEM-----KKKHSSQMPVRQSQKLQLIGDKELTAGA-KNNKTYEQINKRLASDAFPELKL----TN     
+ 5 NP_001013434.1  99.8%  81.6%      ----ELQIESCSSSEEM-----KKQHLDQVPVRHNKTLQLMQDKEPAGRAKKSSKPGEQINKRLASHAFPELTL----TN     
+ 6 XP_028992611.1  75.3%  12.4%      VFYPEFEINSSSACDEVVLLLDTSESMRGESLRMAQRIAL------------------QVLKALDQ---------HLRVN     
+ 7 AAC37594.1      99.2%  75.3%      ----ELQIDSCSSSEEI-----KKKKYNQMPVRHSRNLQLMEGKEPATGAKKSNKPNEQTSKRHDSDTFPELKL----TN     
+ 8 XP_028557582.1  83.1%  28.6%      ----KIQTD-----DKL-----REVGTSQVRVRRSRRLQFSTE-----DAWRRSEPVKRGRKQLDKRETKKRRW-SYEEN     
+ 9 AAD00168.1      96.1%  53.3%      ----ELQIDSCGSSEET-----KKNHSNQQPAGHLREPQLIEDTEPAADA-KKNEPNEHIRKRRASDAFPEEKL----MN     
+10 AAC36493.1      96.3%  53.0%      ----ELQIESCGSSEET-----KKNNSNQTPAGHIREPQLIEDTEPAADA-KKNEPNEHIRKRSASDAFPEEKL----MN     
+   consensus/100%                    ....c..hp.....-c......pp.t.pt..ht..pp.th...................h.ct.sp.............N     
+   consensus/90%                     ....Eh.IpS.sus-Eh.....pctp.pp..stp.pp.QL.tt........+pst..cphpKthsppth.c.ph....hN     
+   consensus/80%                     ....ElpI-SsuSsEEh.....++pp.pQh.lR+s+plQLhppp....ts.Kpscs.cphpKphsScshPE.pl....hN     
+   consensus/70%                     ....ELQI-SsuSsEEh.....KKpp.sQhsVR+u+pLQLhp-pEssssA.KpscPscplpKRhsScsFPEhpL....pN     
+
+                     cov    pid 1041          :         .         .         .         .         1         .         . 1120
+ 1 XP_019673495.1 100.0% 100.0%      IPGVFTNCSSSNTLQEFVN--PGIQREELEESRGTIHVSDRTRDPKALVSSGGRSLQ-----------TERSVESTSISL     
+ 2 NP_989500.1     86.3%  30.0%      VLVHNSQCKDLRKQQDILSYMSLADRNGADLEANGIQISSKNSD--DMA-------------------KNRSFFNPTFSC     
+ 3 AAG43492.1      99.2%  75.8%      APGSFTNCSNTSELKEFVN--PSLPREEEEEKLETVKVSNNAEDPKDLMLSGERVLQ-----------TERSVESSSISL     
+ 4 XP_024835433.1  95.6%  70.8%      TPGYFTNCS--SKPEEFVH--PSLQR---EENLGTIQVSNSTKDPKDLILREGKALQ-----------IERSVESTNISL     
+ 5 NP_001013434.1  99.8%  81.6%      VSGFFANYSSSSKPQECIN--PGLRREEIEESRRMTQVSDSTRDPKELVLSGGRGLQ-----------TERSVESTSISL     
+ 6 XP_028992611.1  75.3%  12.4%      VILFSTDHK-----EAFLAARPVVEAR--EEAAQFIKLFTAVGG-----------------------STELWRPLRALSL     
+ 7 AAC37594.1      99.2%  75.3%      APGSFTKCSNTSELKEFVN--PSLPREEKEEKLETVKVSNNAEDPKDLMLSGERVLQ-----------TERSVESSSISL     
+ 8 XP_028557582.1  83.1%  28.6%      TPT------------------PSIAENYPSVLQGRLQKGVSLSDTSLMDVEGDASKACANPPASPQVGVEQTTEGSSPCC     
+ 9 AAD00168.1      96.1%  53.3%      KAGLLTSCSSPRKSQGPVN--PSPQRTG-TEQLETRQMSDSAKELGDRVLGGEPSGK----------TTDRSEESTSVSL     
+10 AAC36493.1      96.3%  53.0%      KAGLLTSCSSPRKPQGPVN--PSPERKG-IEQLEMCQMPDNNKELGDLVLGGEPSGK----------PTEPSEESTSVSL     
+   consensus/100%                    h.h..................s...t.......thhph.st.tt........................hp......s.sh     
+   consensus/90%                     h.s..sphp.....pt.lt..Ps..cp..p.ththhphsspsp-...h....................h-.o..ssshSh     
+   consensus/80%                     hss..oppp..pp.pt.ls..PuhtRp..pEphthhphusssp-.tthh.ttt.sht...........sEpShEuoolSL     
+   consensus/70%                     ssGhhTsCSs.pc.pthls..PulpRpt.-EphptlplSssscD.t-hhltGt.shp...........TERShESoSlSL     
+
+                     cov    pid 1121          .         .         :         .         .         .         .         2 1200
+ 1 XP_019673495.1 100.0% 100.0%      ------VPD---------ADYGTQD-------------SISLLEADTLGKAKTAPNQRVSL------CAAIENPKEA---     
+ 2 NP_989500.1     86.3%  30.0%      QLSNFNSPS---------SKAGSQEGEMLGKLFLPQSPSKTVLHAASILTEEKRSWSCTVFSQDK-GCCSRNVPKDF---     
+ 3 AAG43492.1      99.2%  75.8%      ------VPG---------TDYGTQE-------------SISLLEVSTLGKAKTEPNKCVSQ------CAAFENPKGL---     
+ 4 XP_024835433.1  95.6%  70.8%      ------VPD---------TDYSTQD-------------SISLLEAKTPEKAKTAPNPCVSL------CTATKNLKEL---     
+ 5 NP_001013434.1  99.8%  81.6%      ------VLD---------TDYGTQD-------------SISLLEADTLRKAKTVSNQQANL------CATIENPKEP---     
+ 6 XP_028992611.1  75.3%  12.4%      L-----PPSRGIRNLLLLSDGHIQN---------PE-PTLKLLRANA---QHSRLFSC---------GLSSTANRHM---     
+ 7 AAC37594.1      99.2%  75.3%      ------VPG---------TDYGTQE-------------SISLLEVSTLGKAKTEPNKCVSQ------CAAFENPKGL---     
+ 8 XP_028557582.1  83.1%  28.6%      I-----VPS---------A--SSQD-------------SCSLLHFASPEVEQTTS-------EDKQLTVAHQTEKNVLCT     
+ 9 AAD00168.1      96.1%  53.3%      ------VPD---------TDYDTQN-------------SVSVLDAHTVRYARTGSAQCMTQ------FVASENPKEL---     
+10 AAC36493.1      96.3%  53.0%      ------VPD---------TDYDTQN-------------SVSILEANTVRYARTGSVQCMTQ------FVASENPKEL---     
+   consensus/100%                    ......s.s.........s..t.Qp.............ohplLchts...tpp..............hhs.ps.+t....     
+   consensus/90%                     ......sPs.........schsoQp.............SholLcsto..htcots..p.........hsu.ps.Kth...     
+   consensus/80%                     ......VPs.........oDhsoQp.............SlSlLcsso.tht+Tts.pphs.......ssu.pssKph...     
+   consensus/70%                     ......VPs.........oDYuTQ-.............SlSLL-AsTlthA+TtsspChs.......ssAhcNPKch...     
+
+                     cov    pid 1201          .         .         .         .         :         .         .         . 1280
+ 1 XP_019673495.1 100.0% 100.0%      --IRGCSKDTRNGTESFTDPLRREDNHT-QETSIEMEENELDTQCLYNTFKVSKRQSFALFSNPGNPEKECATAWARSTS     
+ 2 NP_989500.1     86.3%  30.0%      --RIGKSPMAKNA----------------SEFTMEAEDSELDMQYLRNIFRSSKRQSFSLYP---TPMKACTTDDVASEK     
+ 3 AAG43492.1      99.2%  75.8%      --IHGCSKDTRNDTEGFKYPLGHEVNHS-RETSIEMEESELDAQYLQNTFKVSKRQSFALFSNPGNPEEECATFSAHCRS     
+ 4 XP_024835433.1  95.6%  70.8%      --IHRDFKDTKNNTEGFQDLLGHDINYVIQETSREMEDSELDTQYLQNTFKASKRQTFALFSNPGNPQKECATVFAHSGS     
+ 5 NP_001013434.1  99.8%  81.6%      --IHGCSKDTRNDTEGFVVPLTCKDNHT-QETSIEMEESELDTQCLRNMFKVSKRQSFALFSYPRDPEEDCVTVCPRSGA     
+ 6 XP_028992611.1  75.3%  12.4%      --LRALAQAGAGA--------------------YEFFDTKTKHTWTEKVARQVKRMA--------SP--GCSSVSVKWQQ     
+ 7 AAC37594.1      99.2%  75.3%      --IHGCSKDNRNDTEGFKYPLGHEVNHS-RETSIEMEESELDAQYLQNTFKVSKRQSFAPFSNPGNAEEECATFSAHSGS     
+ 8 XP_028557582.1  83.1%  28.6%      QKLEGDEFCTGDMMRSCKPPETNDEAAGTLELNSETEDSELDTNFMQKIFNGCKRQSFLL-----HPVKESAA-------     
+ 9 AAD00168.1      96.1%  53.3%      --VHG-SNNAGSGTEGLKPPLRHALNLS-QEK-VEMEDSELDTQYLQNTFQVSKRQSFALFSKPRSPQKDC----AHSVP     
+10 AAC36493.1      96.3%  53.0%      --VHG-SNNAGSGSECFKHPLRHELNHN-QET-IEMEDSELDTQYLQNTFQVSKRQSFALFSKLRSPQKDCTLVGARSVP     
+   consensus/100%                    ..h.t....sts......................Eh.-schchphh.phhp.sKR.s........ps..ts.........     
+   consensus/90%                     ..lcu.t.sstss.................Eh.hEhE-oELDtphhpphFpssKRQoF.......sP.ctCs...st...     
+   consensus/80%                     ..l+G.upsstss.csh....tpt.shs.pEh.hEhE-SELDsQaLpNhFpsSKRQSFuLas...sP.c-Css..s+s..     
+   consensus/70%                     ..l+GpSpsstssoEuhp.PLtpc.Nhs.pEpshEME-SELDsQaLpNsF+sSKRQSFALFS..tsPpc-Csoh.s+Sts     
+
+                     cov    pid 1281          .         3         .         .         .         .         :         . 1360
+ 1 XP_019673495.1 100.0% 100.0%      LRKQSPKVALEYEQKEENQGKKQSEIKHVQAVRATA-GFSAVSQKVEKPGDYAKCSIKGVPGLCQS--SQFRGNETELFI     
+ 2 NP_989500.1     86.3%  30.0%      LNTSCP------DQVEE-RNSKYLKTENLQEEKTTAENLSSVCEK------FETCE-----SACVSPVSCFVSSAACVHT     
+ 3 AAG43492.1      99.2%  75.8%      LKKQSPKVTFEREQKEQNQGKNESNIKPVQTVNITA-GFPVVCQK-DKPVDYAKCSIKGGSRFCLS--SQFRGNETGLIT     
+ 4 XP_024835433.1  95.6%  70.8%      LRDQSPRDPLKCRQKEDSQGKSESKSQHVQAICTTV-HFPVADQQDRTPGDDAKCSAKEVTRVCQS--SQLRGHKTELVF     
+ 5 NP_001013434.1  99.8%  81.6%      FGKQGPKVTLECGQKEESQGKKESEIRHVQAVHTNA-GFSAVSQKAKKPGDFAKCSIKGVSRLCLS--SQFKGKETELLI     
+ 6 XP_028992611.1  75.3%  12.4%      FSASAPTPVQAPQQIHA----------LFNDCHTLVYGFVPHCTQATLFGDLSGQELK--TMVSTSELQKTRGT------     
+ 7 AAC37594.1      99.2%  75.3%      LKKQSPKVTFECEQKEENQGKNESNIKPVQTVNITA-GFPVVGQK-DKPVDNAKCSIKGGSRFCLS--SQFRGNETGLIT     
+ 8 XP_028557582.1  83.1%  28.6%      ------------------EIQKETRISLGEDGKVDCLKKSTCIDK--------FCEEKRDAVACEVNSSVQRLASCATSF     
+ 9 AAD00168.1      96.1%  53.3%      SKELSPKVTAKGKQKER-QGQEEFEISHVQAVAATV-GLPVLCQE-GKLAADTMCD--RGSRLCPS--SHYRSGENGLSA     
+10 AAC36493.1      96.3%  53.0%      SREPSPKVTSRGEQKER-QGQEESEISHVQAVTVTV-GLPVPCQE-GKPGAVTMCA--DVSRLCPS--SHYRSCENGLNT     
+   consensus/100%                    ............................hpt.th.s.thss..pp........hpt......hs.s..p..h.t......     
+   consensus/90%                     .tt.sP......tQhct.p.pp..p.p.hpshphss.thsshspp.......thCp....shhC.S..Sph+uttsth.h     
+   consensus/80%                     .pp.uPpss.t.pQhEp.psppp.php.lQsspsss.shsssspc.th.ss.shCp..tssthC.S..SphRuspstl.h     
+   consensus/70%                     hpcpuP+ss.chcQKEc.QGppEocIphVQslpsTs.GhssssQc.tp.ss.stCs.KtsophC.S..SpaRuscstL.h     
+
+                     cov    pid 1361          .         .         .         4         .         .         .         . 1440
+ 1 XP_019673495.1 100.0% 100.0%      ANNHDISKNPYH--IPPLSPIRSSVNAVCKKNLSEEKFEQRSMSPERAVGNESV-----IQSTVNTISQNNIRENTFKEV     
+ 2 NP_989500.1     86.3%  30.0%      VENQDVSKVANHGNLTTLLRICAARNEDGNRPQKGEQGSEKTLST--GIGVESKLRLSPVRSNRSQSDQSNTEEHAFQRT     
+ 3 AAG43492.1      99.2%  75.8%      PNKHGLLQNPYH--IPPLFPIKSFVKTKCKKNLLEENFEEHSMSPEREMGNEN------IPSTVSTISRNNIRENVFKEA     
+ 4 XP_024835433.1  95.6%  70.8%      ANKQGVSEKPNL--IPSLSPIKSSVKTICKKSPS-EKFEEPVTSPEKTLGSESI-----IQSAVSTISQNNIQESTFKEV     
+ 5 NP_001013434.1  99.8%  81.6%      ANYHGISQNPYH--IPPLSPIRSCVKTLCQENLSEEKFEQHSMSPERAVGNERV-----IQSTVSTISQNNIRECASKEV     
+ 6 XP_028992611.1  75.3%  12.4%      --------------FLHKLTARALIRDYEDGNLDTDEAEHEGKKAE-------------LKSFIVELSKEF---------     
+ 7 AAC37594.1      99.2%  75.3%      PNKHGLLQNPYR--IPPLFPIKSFVKTKCKKNLLEENFEEHSMSPEREMGNEN------IPSTVSTISRNNIRENVFKEA     
+ 8 XP_028557582.1  83.1%  28.6%      PDHERRTEHPQLA-SQTAFPDQLATKNPYSPQQSQKPVTKKSMSPQ-------------IRAEVANSNNSS-------SS     
+ 9 AAD00168.1      96.1%  53.3%      TGKSGISQNSHF--KQSVSPIRSSIKTDNRKPLTEGRFERHTSSTEMAVGNENI-----LQSTVHTVSLNN-RGNACQEA     
+10 AAC36493.1      96.3%  53.0%      TDKSGISQNSHF--RQSVSPLRSSIKTDNRKTLTEGRFEKH---TERGMGNETA-----VQSTIHTISLNN-RGDACLEA     
+   consensus/100%                    .................h...p..hpt..p.....t.hpp....s..............l.u.h.p.s.p..........     
+   consensus/90%                     st.pth.p.s.h..h.sh.shpu.hps.tpts..ttphppcs.psp.............l.Stltp.s.ss.......ps     
+   consensus/80%                     ssppsl.pps.h..h.sl.Pl+u.l+s.spcs.ppcphEc+shSsE.thGsEp......lpSslsslSpsN.ptps..cs     
+   consensus/70%                     ssppslopss.h..h.sl.PI+SslKs.sc+sLsp-pFEc+ohSsEhthGsEs......lpSsVsTlSpNN.ctsshpEs     
+
+                     cov    pid 1441          :         .         .         .         .         5         .         . 1520
+ 1 XP_019673495.1 100.0% 100.0%      SSSSV--NEVGSSANEVGSSINEVGSS---GENIQTELGRNRGPKLSAMLRLGLMQ---------PEVYEQSLPISNCKC     
+ 2 NP_989500.1     86.3%  30.0%      GL----------------NAVSETYFS---SESNQVE-------KAEVVDDKGLMQHFQPSPMLCPTACQQNPAEFNCEL     
+ 3 AAG43492.1      99.2%  75.8%      SSSNI--NEVGSSTNEVGSSINEVGSS---DENIQAELGRNRGPKLNAMLRLGVLQ---------PEVYKQSLPESNCKH     
+ 4 XP_024835433.1  95.6%  70.8%      SSNSV--NEVGSSTNEVGSSVNEVGSS---GENIQAEPGRNREPKLRALLGLGLTQ---------PEVYKQSLPVSNCHH     
+ 5 NP_001013434.1  99.8%  81.6%      GSSSV--NEVVSSTNEVGSSVNEVGSS---GENIQAELGRNRGPKLNAMLRLGLMQ---------PEVCKQSLSLSNCKH     
+ 6 XP_028992611.1  75.3%  12.4%      -------SILSQFTSF--VAIEERGSD-------QSQQGFTDIPKLIAEEDVDIL----------PYISWAS-PEESFEC     
+ 7 AAC37594.1      99.2%  75.3%      SSSNI--NEVGSSTNEVGSSINEIGSS---DENIQAELGRNRGPKLNAMLRLGVLQ---------PEVYKQSLPGSNCKH     
+ 8 XP_028557582.1  83.1%  28.6%      GSPNVWRNVIIHSTSL--SGINETRSSINNSEDAESESTKNKGLALNSQPE--FMQ-----P--CPVICQLPHSEFSGVH     
+ 9 AAD00168.1      96.1%  53.3%      GS----------------GSIHEVCST---GDSFPGQLGRNRGPKVNTVPPLDSMQ---------PGVCQQSVPVSD-KY     
+10 AAC36493.1      96.3%  53.0%      SS----------------GSVIEVHST---GENVQGQLDRNRGPKVNTVSLLDSTQ---------PGVSKQSAPVSD-KY     
+   consensus/100%                    ..................sul.Ehh.s........sp.......th.s......h..........P.h...s.s..s..h     
+   consensus/90%                     u.................sulpEhtSo...s-s.psp.shsc..Klps...hs.hQ.........P.l.pts.s..s.ch     
+   consensus/80%                     uS................uulpEstSo...sEshQup.s+N+tPKlpsh.tlshhQ.........PtlhpQShs.pshch     
+   consensus/70%                     uS.....s.l.p.ss...uSlsElsSS...uEshQuE.GRNRGPKLsuh.cLslhQ.........PtVhpQShP.Sss+a     
+
+                     cov    pid 1521          .         .         :         .         .         .         .         6 1600
+ 1 XP_019673495.1 100.0% 100.0%      PEMK--------RQGENEGVVQSVNADFSPCLI-SDNVEQPMESS-RASQVCSETPNDLL-----------NGDEIKGKI     
+ 2 NP_989500.1     86.3%  30.0%      TEKKIITRERSLVKGNEERVIQTVSTGLSEFSV-REALEESLKGH-SDFTDLSETPDGLLC----------SDNDTEESA     
+ 3 AAG43492.1      99.2%  75.8%      PEIK--------KQ-EYEEVVQTVNTDFSPCLI-SDNLEQPMGSS-HASQVCSETPDDLL-----------DDGEIKEDT     
+ 4 XP_024835433.1  95.6%  70.8%      PEIK--------RQGENEDMPQAVKADFSPCLI-SDNLEQPTGSR-HASQVCSETPDNLL-----------NDDEIKENS     
+ 5 NP_001013434.1  99.8%  81.6%      PEMK--------WQGQSEGAVLSVSADFSPCLI-SDNPEQPMGSS-RSSQVCSETPDDLL-----------NGDKIKGKV     
+ 6 XP_028992611.1  75.3%  12.4%      SDVD--------FLSESMDQWPSLESSTTVCLD-RMNYGEPTSPH----LTCGYIPTKLI------VALPPALTPIRLGA     
+ 7 AAC37594.1      99.2%  75.3%      PEIK--------KQ-EYEEVVQTVNTDFSPYLI-SDNLEQPMGSS-HASQVCSETPDDLL-----------DDGEIKEDT     
+ 8 XP_028557582.1  83.1%  28.6%      GEKN-SPMEQKQLHSDTEEATNNCSTGTPKCLVHSNNLEQCAEEEYHGFEVSSETPEGLLGPVIRSIEGSPNLGEMERND     
+ 9 AAD00168.1      96.1%  53.3%      LEIK--------KQ-EGE----AVCADFSPCLF-SDHLEQSM-SG-KVFQVCSETPDDLL-----------DDVEIQGHT     
+10 AAC36493.1      96.3%  53.0%      LEI---------KQ-ESK----AVSADFSPCLF-SDHLEKPMRSD-KTFQVCSETPDDLL-----------DDVEIQENA     
+   consensus/100%                    .-h.........h..p......shpsshs.h...p.t.tpsh..t.....s.u.hPptLl...........s.s.hp.t.     
+   consensus/90%                     .Ehp........hp.p.c....slpssho.hLh.ppphEpshtsp.ps.pssSETPssLL...........s.schptps     
+   consensus/80%                     sEhc........hp.-tEt...sVssshSsCLh.S-slEpshtup.+s.pVCSETP-sLL...........sss-Ictps     
+   consensus/70%                     sEhK........hQ.EsEthh.sVssDFSPCLl.SDNLEQPhtSp.+s.QVCSETPDcLL...........sssEIctss     
+
+                     cov    pid 1601          .         .         .         .         :         .         .         . 1680
+ 1 XP_019673495.1 100.0% 100.0%      SFAES-AKERSAVF---GKSVQKGEFRRS-PSPLDHTHLAQGHQTETRKLESSEENVSSEEEEL--PCFQHLLFGKVTSI     
+ 2 NP_989500.1     86.3%  30.0%      SFYVTNRKDTSAVFVKRSGAAWVKEVNDSVVSCKPRSEGIQRFRRRAQKLQSSDEE-SSDDEDL--PSFQELMFGKSVST     
+ 3 AAG43492.1      99.2%  75.8%      SFAENDIKESSAVF---SKSVQRGELSRS-PSPFTHTHLAQGYRRGAKKLESSEENLSSEDEEL--PCFQHLLFGKVSNI     
+ 4 XP_024835433.1  95.6%  70.8%      HFAESDIKERSAVF---SESVQKGEFRGS-PGPFTHTHLAQGHQRGAGKLE-SEETVSSEDEEL--PCFQQLLFGKVTST     
+ 5 NP_001013434.1  99.8%  81.6%      SFAESDIKEKSAVF---SKSVQSGEFSRS-PSPSDHTRLAQGYQRGTKKLESSEENMSSEEEEL--PCFQHLIFGKVTNM     
+ 6 XP_028992611.1  75.3%  12.4%      S---------EVAFPL--------------PPPSAHLQAPASLPFQFGALPGPAPPLAPPSAHLQAPASRSFLFGASLRA     
+ 7 AAC37594.1      99.2%  75.3%      SFAENDIKESSAVF---SKSVQKGELSRS-PSPFTHTHLAQGYRRGAKKLESSEENLSSEDEEL--PCFQHLLFGKVNNI     
+ 8 XP_028557582.1  83.1%  28.6%      SLAMSPGRDEQTPL---KGDLGSGNGRSS---RLSHKGLVRTQQRWARKLPSSEED-SSEDEEL--PSFQALIFGKSAST     
+ 9 AAD00168.1      96.1%  53.3%      SFGEGDIMERSAVF---NGSILRRESSRS-PSPVTHASKSQSLHRASRKLESSEESDSTEDEDL--PCFQHLL-SRISNT     
+10 AAC36493.1      96.3%  53.0%      SFGEGGITEKSAIF---NGSVLRRESSRS-PSPVTHASKSRSLHRGSRKLEFSEESDSTEDEDL--PCFQHLL-SRVSST     
+   consensus/100%                    p.........ps.h....................s+.th.tt..h..ttL..st...us.ptcL..Ps.pthh.ut..ph     
+   consensus/90%                     Shh.s.hh-ppssF...ttsh..tp.ptS.sss.sHtphspshpptstKL..S-Es.So--E-L..PsFQpLl.u+sssh     
+   consensus/80%                     SFu.sshp-pSAlF...stul.ptE.ppS.PuPhsHsphspuhpRtspKLpuSEEs.SoE-E-L..PsFQpLlFG+sssh     
+   consensus/70%                     SFuEssh+EpSAVF...stSl.ptEhpcS.PSPhsHsphuQuhpRtu+KLESSEEs.SSEDE-L..PCFQcLLFGKlssh     
+
+                     cov    pid 1681          .         7         .         .         .         .         :         . 1760
+ 1 XP_019673495.1 100.0% 100.0%      P---------SQSTSHNAIATEGLSKKTEANLESLKDSLHDCSNQVTSAKESQEHHL---SEEARCSGSLFSSQCSASED     
+ 2 NP_989500.1     86.3%  30.0%      P---------LQIQKQ---VTSVVQSSANPSTLPCSECLNE-NNEQKTLEAALSNECASPSQESECSVNLFSSQSNMSEE     
+ 3 AAG43492.1      99.2%  75.8%      P---------SQSTRHSTVATECLSKNTEENLLSLKNSLNDCSNQVILAKASQEHHL---SEETKCSASLFSSQCSELED     
+ 4 XP_024835433.1  95.6%  70.8%      L---------SPSTGCNTVATEGLSKETEENLESLKSGLNDCSGQVTSAKVSQEHHL---NEEARCSGSLFSSQCSAMED     
+ 5 NP_001013434.1  99.8%  81.6%      P---------SQSTSHNAVAAEGLSNKTEENLDSLKNSLSDISNQVPSAKASQEHHL---SEEARCSGSLFSSQCSALED     
+ 6 XP_028992611.1  75.3%  12.4%      PAGHPPPSAHLQAPASRSFLTGAPSRPASYSLLSLDEA--KCAAIDSLTEA--------PLFQLQAAASGFSSWGTSLGA     
+ 7 AAC37594.1      99.2%  75.3%      P---------SQSTRHSTVATECLSKNTEENLLSLKNSLNDCSNQVILAKASQEHHL---SEETKCSASLFSSQCSELED     
+ 8 XP_028557582.1  83.1%  28.6%      P---------LDPLKK---------KKTSGGMPALKSS-NKCS-----VETKEEHVC--PSQGSECSMKLFSSQSHTAED     
+ 9 AAD00168.1      96.1%  53.3%      P----------ELTRCRSAVTQGIPEKAEGTQAPWKGSSSDCNNEVIMIEASQEHQF---SEDPRCSGRMFSSQNSAAQG     
+10 AAC36493.1      96.3%  53.0%      P----------ELTRCSSVVTQRVPEKAKGTQAPRKSSISDCNNEVILGEASQEYQF---SEDAKCSGSMFSSQHSAALG     
+   consensus/100%                    ..............tp.........p.sp.s..shpts..c.s.....hc............t.psuhphFSS.tp...t     
+   consensus/90%                     P..........p..tp...hsth..ppsp.s..shcpu.pchss....hcst.p..h...sppscCSsphFSSQsst.ts     
+   consensus/80%                     P..........p.spppshsTpslscpsptsh.shKsu.s-Cssps..scsupEaph...Sp-scCSushFSSQsothps     
+   consensus/70%                     P..........psTpppshsTpslscpsctsh.uLKsSlsDCuNpVh.scASQEHph...SE-s+CSuSLFSSQsSshE-     
+
+                     cov    pid 1761          .         .         .         8         .         .         .         . 1840
+ 1 XP_019673495.1 100.0% 100.0%      SAVNTNTQDPFLMFDPPSKQVRHQSENVDV-LSDEELVS-YDDERE--PGLEEDNHEEEQSVDSNLGEAASGYENETSLS     
+ 2 NP_989500.1     86.3%  30.0%      SVDGAQELKKTLTQVSNVKKSKEAPQSCSGGL--KRLKNNLNDEY-----------QEDPNMGANLGE-ASGYDSETSRV     
+ 3 AAG43492.1      99.2%  75.8%      LTANTNTQDPFLI--GSSKQMRHQSESQGVGLSDKELVS-DDEERG--TGLEENN-QEEQSMDSNLGEAASGCESETSVS     
+ 4 XP_024835433.1  95.6%  70.8%      LTTNTNTQDPFLMFERPSKQV-YQSESEEV-LSDKELVS-DDEERE--TGLEEDSCQEEQSVDSDLGEAVSDHVSETSLS     
+ 5 NP_001013434.1  99.8%  81.6%      LTVNTNTQDPFSMFDPTSKQVRHQSENLDV-LNDKELVSDDDDERE--PGLEEDSPQEEQSVDSDLGEVASGYESETSLS     
+ 6 XP_028992611.1  75.3%  12.4%      L--------------PP--------------LSPPSADS-----------------QAPTSPCFSPGDPEGAGNFELASL     
+ 7 AAC37594.1      99.2%  75.3%      LTANTNTQDPFLI--GSSKQMRHQSESQGVGLSDKELVS-DDEERG--TGLEENN-QEEQSMDSNLGEAASGCESETSVS     
+ 8 XP_028557582.1  83.1%  28.6%      F--RSRPQDSRHL--TPAPTSRENLESLSG---NKKAAQ-PRDEVSKDAGQQKDEQQEQVDSEFNLGEETLDYDSEASCL     
+ 9 AAD00168.1      96.1%  53.3%      STANANSQDSNFI--PPSKQRSHQCGNEEAFLSDKELIS-DNEEMA--TCLEEDNDQEEDSIIPD--SEASGYESETNLS     
+10 AAC36493.1      96.3%  53.0%      SPANALSQDPDFN--PPSKQRRHQAENEEAFLSDKELIS-DHEDMA--ACLEEASDQEEDSIIPD--SVASGYESEANLS     
+   consensus/100%                    ................s..................ph.p.................pt..s...s..p...sh..Ehs..     
+   consensus/90%                     ...ts...c......sss.p...t.ts.ts.L.scchhs..p--h...........QEp.s...s..p.sushpsEssh.     
+   consensus/80%                     .sssspsQDs.hh..ssuKp.pcpsps.ts.LssKcLhS..p-Eht..ss.pcsp.QE-pShtss.G-.sSuh-SEsuhs     
+   consensus/70%                     .ssNspoQDshhh..ssSKQh+aQsEs.ps.LSDKELlS.sc-Eht..ssLEEss.QEEpShsssLGEsASGa-SETSlS     
+
+                     cov    pid 1841          :         .         .         .         .         9         .         . 1920
+ 1 XP_019673495.1 100.0% 100.0%      EDCSGVSSQSDILTTQQRDTMQDNLIKLQQEMAELEAVLEQHESQPSNSSP-------ALIRDSYAPEDLFNLEQNTSEK     
+ 2 NP_989500.1     86.3%  30.0%      EDSHEPFSQGEILSTQQKNAMQNNLKKLQQEMAVLEAVLKQHGSQDAEVLPLCRELPYCSIGGTLGLERMRQETENVSE-     
+ 3 AAG43492.1      99.2%  75.8%      EDCSGLSSQSDILTTQQRDTMQDNLIKLQQEMAELEAVLEQHGSQPSNSYP-------SIISDSSALEDLQNPEQSTSEK     
+ 4 XP_024835433.1  95.6%  70.8%      EDGVGLSSQSDILTTQQRDTMQDNLLKLQQEMAELEAVLERHGSQPSHSSA-------SLTADSRGPEHLLNLEQDTSER     
+ 5 NP_001013434.1  99.8%  81.6%      EDCSRLSSQSDILTTQQRDTMQDNLIKLQQEMAELEAVLEQHESQPSNSSP-------SLIADSCSPEDLLNPEQNASER     
+ 6 XP_028992611.1  75.3%  12.4%      DVAPAPPAH------RRRSVLQ------------ICGTMDVHGSMDVSAPP-----------------------------     
+ 7 AAC37594.1      99.2%  75.3%      EDCSGLSSQSDILTTQQRDTMQHNLIKLQQEMAELEAVLEQHGSQPSNSYP-------SIISDSSALEDLRNPEQSTSEK     
+ 8 XP_028557582.1  83.1%  28.6%      GDSSGLSSQSEILTTQQKNAMQNSLKKLQQKMAILEAVLKQ-GSQSAVHEG-------SL---------LPGEEGDFTGG     
+ 9 AAD00168.1      96.1%  53.3%      EDC----SQSDILTTQQRATMKYNLIKLQQEMAHLEAVLEQRGNQPSGHSP-------SLLADPCALEDLPDLEPNMSGA     
+10 AAC36493.1      96.3%  53.0%      EDC----SQSDILTTQQRATMKDNLIKLQQEMAQLEAVLEQHGSQPSGHPP-------CLPADPCALEDLPDPEQNRSGT     
+   consensus/100%                    tss....up......pp+sshp............lpushc..ts.ss...s.............................     
+   consensus/90%                     -Ds....SQu-ILoTQQ+ssMp.sLhKLQQcMA.LEAVLcp+tSQsutt.s.......s..........h.t.p.shot.     
+   consensus/80%                     EDs.t..SQS-ILTTQQRssMQpNLhKLQQEMA.LEAVL-QHGSQsusp.P.......sl.tss.u.EcL.s.EtshStt     
+   consensus/70%                     EDsst.sSQSDILTTQQRsTMQsNLlKLQQEMApLEAVLEQHGSQPSss.P.......ulhuDs.u.EcL.s.EpshStt     
+
+                     cov    pid 1921          .         .         :         .         .         .         .         0 2000
+ 1 XP_019673495.1 100.0% 100.0%      -VLTSEKSSDCLISQNPESLSADKFQVS-LDSSTSKTKEPGMRRSSPSQSRLLDTRQCVRSHSSSLQSTNCLSQKELIKA     
+ 2 NP_989500.1     86.3%  30.0%      -----------------------------HDSETK---------------------------------------------     
+ 3 AAG43492.1      99.2%  75.8%      AVLTSQKSSEYPISQNPEGLSADKFEVS-ADSSTSKNKEPGVERSSPSKCPSLDDRWYMHSCSGSLQNTNYPSQEELIKV     
+ 4 XP_024835433.1  95.6%  70.8%      AILTSEKSRDYSRSQNPESLSADKFPVS-LDSSTNKNKEPGMERSSASKFQLSYNRWYMHS-SRSLQDRNCPSQKEPINV     
+ 5 NP_001013434.1  99.8%  81.6%      -VLTSEKSSDSPISQNPESLSTDKFQVF-LDSSTSKNGEPGMIRSSPSQSRLLDTRWYVHSCPRSLQDTNCPSQKELTKV     
+ 6 XP_028992611.1  75.3%  12.4%      -EVSPPPSAQSLADQLPQSFAQQAQQIQSADMIVPQAKKKFKFRAGRAK-------------------------------     
+ 7 AAC37594.1      99.2%  75.3%      AVLTSQKSSEYPISQNPEGLSADKFEVS-ADSSTSKNKEPGVERSSPSKCPSLDDRWYMHSCSGSLQNRNYPSQEELIKV     
+ 8 XP_028557582.1  83.1%  28.6%      ---------------QTKSARGSKADLS-SESKQS---------------------------------------------     
+ 9 AAD00168.1      96.1%  53.3%      AILTSKNINENPVSQNLKSACDDKFQLQHLEGPTSGDDESGMGRPSPFKSPLAGSRGSAHGCSRHLQKRNSPSQEELLQP     
+10 AAC36493.1      96.3%  53.0%      AILTSKNINENPVSQNPKRACDDKSQPQPPDGLPSGDKESGMRRPSPFKSPLTSSRCSARGHSRSLQNRNSTSQEELLQP     
+   consensus/100%                    ..............................-.................................................     
+   consensus/90%                     .................pthttpt......-u.ss.............................................     
+   consensus/80%                     ..los...tp..hsQpscuhsssK.plp.hDu.sststc.hh.Rsu..p...............................     
+   consensus/70%                     .lLTSpp.s-..hSQNPcuhssDKhplp.hDSpTStscEsGh.RsSs.p.....sR..h+u.stpLQppN..SQcE.hps     
+
+                     cov    pid 2001          .         .         .         .         :         .         .         . 2080
+ 1 XP_019673495.1 100.0% 100.0%      VDGEELQLTKSEPRDFMEQSYLPRQDLEGTPYFESGISLFSDDPESDFSVDRAPEPVHVSSMPTSTSALKLPQFQVEESA     
+ 2 NP_989500.1     86.3%  30.0%      ---------------LTKASVLP---------------VLCGNVTKNPNS--------------SSFSVKHPCPQTAEAT     
+ 3 AAG43492.1      99.2%  75.8%      VDVEEQQLEESGPHDLTETSYLPRQDLEGTPYLESGISLFSDDPESDPSEDKAPESAHVGNIPSSTSALKVPQLKVAESA     
+ 4 XP_024835433.1  95.6%  70.8%      ADMEEQQLAKREAQDLM-GSFLPRQDQEGTPYLKSGISLFSHEPESDPSEDRAAEPAHVHSMPPSASALKLSQFRVEEST     
+ 5 NP_001013434.1  99.8%  81.6%      VSMEEQQPTESEARDLMEQSYLSRPDLEGAPYLESGISLFSDDPESDPSSHRASELAHVSSMPTSTSALKLPQFQVEESA     
+ 6 XP_028992611.1  75.3%  12.4%      ---------------LSQGSILQ-------PEFQSALAFTHLSCRTSLSAASALQQIAPPPPPPPP-----PQP-LHRLS     
+ 7 AAC37594.1      99.2%  75.3%      VDVEEQQLEESGPHDLTETSYLPRQDLEGTPYLESGISLFSDDPESDPSEDRAPESARVGNIPSSTSALKVPQLKVAESA     
+ 8 XP_028557582.1  83.1%  28.6%      ---------------LQGAFSTPVRNMRGTP-----------GSSKSKEQTSSLLAAETAMGPPSA---------THDAG     
+ 9 AAD00168.1      96.1%  53.3%      AGSE----ASSEPHNSTGQSCLPRRELEGTPYLGSGISLFS---SRDPESESPKEPAHIGTTPASTSALKIPQGQVA--F     
+10 AAC36493.1      96.3%  53.0%      AXLE----KSCEPHNLTGRSCLPRQDLEGTPYPESGIRLVS---SRDPDSESPKVSALVCTAPASTSALKISQGQVAGSC     
+   consensus/100%                    ..................t..h......................pps.p...............ss.........ht...     
+   consensus/90%                     ...............h.ttShLs.......P.......hhp...pps.pttps...h.....PsSs.....sp..stt.s     
+   consensus/80%                     ...............LhttShLPh.p.cGsP..tSultlhs.tspps.sppps...stssshPsSs.ulKhsQ.pltcus     
+   consensus/70%                     s..E....tpptspsLpttShLPRp-hEGTPYhpSGIuLhS.ssppDPspcpu.psAclsshPsSoSALKlPQhpVt-us     
+
+                     cov    pid 2081          .         1         .         .         .         .         :         . 2160
+ 1 XP_019673495.1 100.0% 100.0%      KSTAAVHITNTAGY--------------NKREDIEGKERPEMMSSTKRVNKRISMVASGLTPKELVLVQKFARRHQITLT     
+ 2 NP_989500.1     86.3%  30.0%      DSSAVAQGDNKSNVQVCKSKRSVCFP-TSVLHNVAGKENAASSGTTCRTE--MSIVASGLNQSEHLMVQKFARKTQSTFS     
+ 3 AAG43492.1      99.2%  75.8%      QSPAAAHTTNTAGY--------------NAMEESVSREKPELTASTERVNKRMSMVVSGLTPEEFMLVYKFARKHHITLT     
+ 4 XP_024835433.1  95.6%  70.8%      KNPAAAHIANTTRC--------------NLREESMSKEKPEVISSTERSKKRLSMVASGLTPKELMLVQKFARKHHVTLT     
+ 5 NP_001013434.1  99.8%  81.6%      KSTAAVHIASTAGY--------------NKSEDSVGIEKPEVISSTRGVNKRISMVASGLTPKEFMLVHKFARKHHISLT     
+ 6 XP_028992611.1  75.3%  12.4%      RKSESAH------------REGVCFYHTPVLHDLAPADDYVLARRGTRLRK------SPVKPLKVKWTKIFLMQQTEGYW     
+ 7 AAC37594.1      99.2%  75.3%      QSPAAAHTTDTAGY--------------NAMEESVSREKPELTASTERVNKRMSMVVSGLTPEEFMLVYKFARKHHITLT     
+ 8 XP_028557582.1  83.1%  28.6%      RQRALRHSAQGSPV---------CPL-SRITHCSTSKGNSERPFVTSKKN--MSLVASGLNQGELRLVQMFARKNESTWS     
+ 9 AAD00168.1      96.1%  53.3%      RSAAAAG-ADKA------------------VVGIVSKIKPELTSSEERADRDISMVVSGLTPKEVMTVQKFAEKYRLTLT     
+10 AAC36493.1      96.3%  53.0%      RSPAAGG-ADTA------------------VVEIVSKIKPEVTSPKERAERDISMVVSGLTPKEVMIVQKFAEKYRLALT     
+   consensus/100%                    pp.t.ht.........................t..sh.p......tpt.p.......Sslp..chhhs.hFh.p.p.sh.     
+   consensus/90%                     ppsAsst.spts..................h.p.hut.psth.tspp+hp..hShVsSGLs.tEhhhV.hFAc+.p.sho     
+   consensus/80%                     cssAusp.sspu.................hhcp.su+tcsEhhusspRsp+.hShVsSGLsPpEhhhVpKFAcKpp.oho     
+   consensus/70%                     +SsAAuH.sssu.h..............shhc-.su+-+PElsuoTcRsp+chSMVsSGLTPcEhhlVpKFARKaclTLT     
+
+                     cov    pid 2161          .         .         .         2         .         .         .         . 2240
+ 1 XP_019673495.1 100.0% 100.0%      NVISEETTHVIMKTDA--EFVCERTLKYFLGIAGGRWV---VSYFWVTQSI-----KERKMLDEHDFEVRGDVVNGRNHQ     
+ 2 NP_989500.1     86.3%  30.0%      NHITDGTTHVIMKTDE--ELVCERTLKYFLGIAGRKWV---VSYQWIIQSF-----KEGRILDEEHFEVKGDVINGRNHQ     
+ 3 AAG43492.1      99.2%  75.8%      NLITEETTHVVMKTDA--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KERKMLNEHDFEVRGDVVNGRNHQ     
+ 4 XP_024835433.1  95.6%  70.8%      NLITEETTHVIMKTDP--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KEGKMLDEHDFEVRGDVVNGRNHQ     
+ 5 NP_001013434.1  99.8%  81.6%      NLISEETTHVIMKTDA--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KERKILDEHDFEVRGDVVNGRNHQ     
+ 6 XP_028992611.1  75.3%  12.4%      ELTTALGELIDVNVDVFMEFLKSKGINS-LGVRAHAEILRLVATLLILQLMRLVKQKEGKLLRTL-FSLEESEPRPRHWE     
+ 7 AAC37594.1      99.2%  75.3%      NLITEETTHVVMKTDA--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KERKMLNEHDFEVRGDVVNGRNHQ     
+ 8 XP_028557582.1  83.1%  28.6%      NKISYETTHVVMKTDE--DLVCERTLKYFLGIAGRKWV---VSYHWVVQSL-----KERRVLNEEDFEVRGDMINGRNHQ     
+ 9 AAD00168.1      96.1%  53.3%      DAITEETTHVIIKTDA--EFVCERTLKYFLGIAGGKWI---VSYSWVVRSI-----QERRLLNVHEFEVKGDVVTGRNHQ     
+10 AAC36493.1      96.3%  53.0%      DVITEETTHVIIKTDA--EFVCERTLKYFLGIAGGKWI---VSYSWVIKSI-----QERKLLSVHEFEVKGDVVTGSNHQ     
+   consensus/100%                    phho..sphl.hpsD...-hlpp+slp..LGltutt.l...Vuh.hlhp.h.....pEt+hLp...Fplcts..psppap     
+   consensus/90%                     shIottTTHVlhKTD...EhVCERTLKYFLGIAGt+Wl...VSY.WlhpSh.....pEt+hLs.ccFEV+GDhlsGRNHQ     
+   consensus/80%                     shIo-ETTHVlhKTDs..EFVCERTLKYFLGIAGtKWl...VSY.WVhQSl.....KEt+hLspc-FEV+GDVlsGRNHQ     
+   consensus/70%                     NlITEETTHVlMKTDs..EFVCERTLKYFLGIAGGKWV...VSYhWVsQSI.....KERKhLsEH-FEV+GDVVNGRNHQ     
+
+                     cov    pid 2241          :         .         .         .         .         3         .         . 2320
+ 1 XP_019673495.1 100.0% 100.0%      GPKRA--------RESRDRKIFGGLEICCYGP-----------FTNMPTDQLEWMVRLCGASVVKRPSLFTLSKATHPVV     
+ 2 NP_989500.1     86.3%  30.0%      GPKRA--------RQSPAEKIFKDFEICCCGP-----------FTDMTTGHLEWIVELCGASVVKQLHLFTHKVNSTAVV     
+ 3 AAG43492.1      99.2%  75.8%      GPKRA--------RESQDRKIFRGLEICCYGP-----------FTNMPTDQLEWMVQLCGASVVKELSSFTLGTGVHPIV     
+ 4 XP_024835433.1  95.6%  70.8%      GPKRA--------RESRDKKIFKGLEICCYGP-----------FTNMPTG----YPPSCGRA------------------     
+ 5 NP_001013434.1  99.8%  81.6%      GPKRARE---SQDRESQDRKIFRGLEICCYGP-----------FTNMPTDQLEWMVHLCGASVVKEPSLFTLSKGTHPVV     
+ 6 XP_028992611.1  75.3%  12.4%      QMKRAVKWVCWAERQYPC--IYSRLE---FGSSWESATRQLLGFEDLPP-----LSPLVGLNLQK--------------I     
+ 7 AAC37594.1      99.2%  75.3%      GPKRA--------RESQDRKIFRGLEICCYGP-----------FTNMPTDQLEWMVQLCGASVVKELSSFTLGTGVHPIV     
+ 8 XP_028557582.1  83.1%  28.6%      GPKRA--------RESPVGKLFQGLEICCYGP-----------FTDMLPEQLEWMVELSGASIVKEPRLFSHSTNSTAVV     
+ 9 AAD00168.1      96.1%  53.3%      GPRRS--------RESRE-KLFKGLQVYCCEP-----------FTNMPKDELERMLQLCGASVVKELPSLTHDTGAHLVV     
+10 AAC36493.1      96.3%  53.0%      GPRRS--------RESQE-KLFEGLQIYCCEP-----------FTNMPKDELERMLQLCGASVVKELPLLTRDTGAHPIV     
+   consensus/100%                    t.+Ru........Rp.....latthp...hts...........Fpsh.......h...sGhs..................     
+   consensus/90%                     GP+Ru........RpS.t.KlFpsLplhChtP...........FTsMs.t....h..LsGtul.K..............l     
+   consensus/80%                     GPKRA........RES.s.KlFpGLEIhChGP...........FTsMPsspLEhhlpLCGASlVKp...hohthssp.lV     
+   consensus/70%                     GPKRA........RESp-tKIFcGLEICCaGP...........FTNMPs-pLEhMlpLCGASVVKc...hThspsspslV     
+
+                     cov    pid 2321          .         .         :         .         .         .         ] 2390
+ 1 XP_019673495.1 100.0% 100.0%      VVQPDAWTEDSGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PRATADLSQPCV     
+ 2 NP_989500.1     86.3%  30.0%      VVQPDAWMEGTSYEAIQRKNNVAVVTREWVLDSVACFECQELDAYLVSQD--------------------     
+ 3 AAG43492.1      99.2%  75.8%      VVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PHSHY-------     
+ 4 XP_024835433.1  95.6%  70.8%      -----AGCLDRG-------CWLP---------------CDRADV--------------------------     
+ 5 NP_001013434.1  99.8%  81.6%      VVQPDAWTEDSGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PRTAADSSQPCV     
+ 6 XP_028992611.1  75.3%  12.4%      KKNP-----------LPSRCS-----------STGSSTGSSTDSSTVSST----DSSWEN----------     
+ 7 AAC37594.1      99.2%  75.3%      VVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PHSHY-------     
+ 8 XP_028557582.1  83.1%  28.6%      VVQPEAWSEDTACQGIPPQCSATVVSREWMLDSIACYQRQAFDEYIVQQV--------------------     
+ 9 AAD00168.1      96.1%  53.3%      IVQPSAWTEDSNCPDIGQLCKARLVMWDWVLDSLSSYRCRDLDAYLVQNITC--DSSEPQDSND------     
+10 AAC36493.1      96.3%  53.0%      LVQPSAWTEDNDCPDIGQLCKGRLVMWDWVLDSISVYRCRDLDAYLVQNITCGRDGSEPQDSND------     
+   consensus/100%                    ...................s..................tpthD...........................     
+   consensus/90%                     hhpP.Ah..sps...l...Cph..........Shu..pspphDs.hl.p.....................     
+   consensus/80%                     lVQPpAWsEDssh.sIsphCps.lV.h-WhLDSlu.apCpchDsYll.ph....................     
+   consensus/70%                     lVQPsAWoEDsuh.sIsphCpuslVhh-WVLDSluhYpCp-LDsYLl.pl.........p..........     
+
+phylogenetic tree
+Reference sequence (1): XP_019673495.1
+Identities normalised by aligned length.
+Colored by: identity
+                     cov    pid    1 [        .         .         .         .         :         .         .         . 80  
+ 1 XP_019673495.1 100.0% 100.0%      MDLSADRVEEVQSVLNAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 2 NP_989500.1     86.3%  30.0%      MDLSVIAIGDVQNVLSAMQKNLECPVCLDVIKEP---------------------VSTKCDHV----FCRFCMFKLLSRK     
+ 3 AAG43492.1      99.2%  75.8%      MDLSALRVEEVQNVINAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 4 XP_024835433.1  95.6%  70.8%      MDLSADHVEEVQNVLNAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 5 NP_001013434.1  99.8%  81.6%      MDLSADRVEEVQNVLNAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 6 XP_028992611.1  75.3%  12.4%      -----------------MVVFENCSVLLELKTLPFKEKKKLRAAITENGGSISFVVNKQCSLVVTSDLCSLSSNRLRSVQ     
+ 7 AAC37594.1      99.2%  75.3%      MDLSALRVEEVQNVINAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+ 8 XP_028557582.1  83.1%  28.6%      MDSSIPSIAEVRGILLAMQKNLECPICLEVMKEP---------------------VSTNCAHI----FCSFCMFKLLK-Q     
+ 9 AAD00168.1      96.1%  53.3%      MDLSAVQIQEVQNVLHAMQKILECPICLELIKEP---------------------VSTKCDHI----FCKFCMLKLLN-Q     
+10 AAC36493.1      96.3%  53.0%      MDLSAVRIQEVQNVLHAMQKILECPICLELIKEP---------------------VSTQCDHI----FCKFCMLKLLN-Q     
+   consensus/100%                    .................M.h..pCslhL-lhp.P.....................VsppCshl....hCphs..+Lhp.p     
+   consensus/90%                     MD.Sh.tlt-Vpsll.AMQK.LECPlCLElhKEP.....................VSTpCsHl....FCpFCMhKLLs.Q     
+   consensus/80%                     MDLSs.pltEVQsVlpAMQKhLECPICLELIKEP.....................VSTpCDHI....FC+FCMhKLLs.Q     
+   consensus/70%                     MDLSA.plpEVQNVLpAMQKILECPICLELIKEP.....................VSTKCDHI....FCKFCMLKLLN.Q     
+
+                     cov    pid   81          .         1         .         .         .         .         :         . 160 
+ 1 XP_019673495.1 100.0% 100.0%      RKGPSQCPLCKNDITKRSLQESTRFSQLVEELLNIIHAFELD-------------------------TGLQ---------     
+ 2 NP_989500.1     86.3%  30.0%      KKGVIQCPLCKTEVTKRSLKENSRFKQLIEGLLEAISAFELD-------------------------TGVK---------     
+ 3 AAG43492.1      99.2%  75.8%      KKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLD-------------------------TGLE---------     
+ 4 XP_024835433.1  95.6%  70.8%      KKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIIHAFELD-------------------------TGLQ---------     
+ 5 NP_001013434.1  99.8%  81.6%      RKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIIHAFELD-------------------------TGLQ---------     
+ 6 XP_028992611.1  75.3%  12.4%      KH---RTPVVRLDYVYSCLSSGVRLP---------VDAFQLDPPSPPPAPSSPELGSIPHQDVSQREEGQERNGNVLEKF     
+ 7 AAC37594.1      99.2%  75.3%      KKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIICAFQLD-------------------------TGLE---------     
+ 8 XP_028557582.1  83.1%  28.6%      KKGAVRCPLCNAKVTKRSLWEDVRFKQVIKVVLEAIRAFEHD-------------------------TGLK---------     
+ 9 AAD00168.1      96.1%  53.3%      KKGPSQCPLCKNEITKRSLQGSTRFSQLAEELLRIMAAFELD-------------------------TGMQ---------     
+10 AAC36493.1      96.3%  53.0%      KKGPSQCPLCKNEITKRSLQGSARFSQLVEELLKIIDAFELD-------------------------TGMQ---------     
+   consensus/100%                    ++...psPlsp.chshpsL.tssRh..........htAFphD.........................pG.p.........     
+   consensus/90%                     +KGs.pCPLC+s-lTKRSLptssRFpQlhc.lLphlpAFpLD.........................TGhp.........     
+   consensus/80%                     KKGssQCPLCKs-lTKRSLppusRFsQLlEtLLchIpAFpLD.........................TGhp.........     
+   consensus/70%                     KKGPSQCPLCKN-ITKRSLQESoRFSQLlEELLcIIpAFELD.........................TGlp.........     
+
+                     cov    pid  161          .         .         .         2         .         .         .         . 240 
+ 1 XP_019673495.1 100.0% 100.0%      ------------FANSYNFSKKENN--SPEHLKEEVSIIQSMGYRNRAKRLRQSEPENPNLQETSLSVQLSNFGIV-RSL     
+ 2 NP_989500.1     86.3%  30.0%      ------------FLSSRYFPKTSTEVATAELLGNNSSVIQSKGFRNRKRGAKENRQDSCTL-EANVDPQLTDNRVKGSSV     
+ 3 AAG43492.1      99.2%  75.8%      ------------YANSYNFAKKENN--SPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQETSLSVQLSNLGTV-RTL     
+ 4 XP_024835433.1  95.6%  70.8%      ------------FANSYNFSRKEDN--SPEHLKEEVSIIQSMGYRNRAKRLWQSEPENPTLQETSLTVELSNLGIV-RSL     
+ 5 NP_001013434.1  99.8%  81.6%      ------------FADSYNFSKKENN--SPEHLKEEVSIIQSMGYRNRAKRLRQSEPENPTL-ETSLSVQLSNLGIV-RSL     
+ 6 XP_028992611.1  75.3%  12.4%      RIFTERDFNLPPFPDDFQVAKYSVFEKGNSGTWSVLELQSARGGNGQRYRVVCYLKDDIGTKKAAVKDKLVFVSTSEDAL     
+ 7 AAC37594.1      99.2%  75.3%      ------------YANSYNFAKKENN--SPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQETSLSVQLSNLGTV-RTL     
+ 8 XP_028557582.1  83.1%  28.6%      ------------FSDDLCFPKKALEDASASVSWQEKQVIDCKGYRDRLKRVKEVKKRNAGL-EGETSSLPLDGGTR-RSL     
+ 9 AAD00168.1      96.1%  53.3%      ------------LTNGFSFSKKRNN--SCERLNEEASIIQSVGYRNRVRRLPQVEPGNATL-KDSLGVQLSNLGIV-RSV     
+10 AAC36493.1      96.3%  53.0%      ------------CANGFSFSKKKNS--SSELLNEDASIIQSVGYRNRVKKLQQIESGSATL-KDSLSVQLSNLGIV-RSM     
+   consensus/100%                    ............h.ssh.hs+ht....ssph..p..pl.pshGhpsphhth.p...ts.sh.csthts.....th..psh     
+   consensus/90%                     ............hssshpFsKppsp..osphh.pphplIpuhGaRsRh++l.p.c.tsssL.csslsspLsshuhh.col     
+   consensus/80%                     ............assuasFuKKpsp..SsEhLtp-sSlIQShGYRNRh+Rlhpsc.csssL.csulsspLoshGhs.Rol     
+   consensus/70%                     ............ausuasFuKKcss..SsEtLp-EsSIIQShGYRNRsKRLhQsEs-NsoL.EsSLoVQLSNlGhV.RSL     
+
+                     cov    pid  241          :         .         .         .         .         3         .         . 320 
+ 1 XP_019673495.1 100.0% 100.0%      RTKQQIQPQNKSVYIELGSDSSEDTVNKASY-------------FSAEDD-----ELLGITPQGA----RAEASLNPAKK     
+ 2 NP_989500.1     86.3%  30.0%      RSKKQKCGIEKGVLIELGTDSSEEHFILASS-------------TGLEDK-----EELE-EPKSAE-KYGSSCNTQPLKL     
+ 3 AAG43492.1      99.2%  75.8%      RTKQRIQPQKKSVYIELGSDSSEDTVNKATY-------------CSVGDQ-----ELLQITPQGT----RDEISLDSAKK     
+ 4 XP_024835433.1  95.6%  70.8%      RTKQQTQSQNKSVYIELGSDSSEDTVNKASY-------------FSVGDH-----ELLEITPQGA----KAKTNLNPAEK     
+ 5 NP_001013434.1  99.8%  81.6%      RTKQQIQPQNKSVYIELGSDSSEDTVNKASS-------------CSVGDD-----E-LEITSQGA----RAEASLNPAKK     
+ 6 XP_028992611.1  75.3%  12.4%      QVFQALSEALQADGLQLRTDNPPEAQDLGSGPLQQLLLEEKLSTGSLSREVGVFVELLWTEALGSL---GNILSININKL     
+ 7 AAC37594.1      99.2%  75.3%      RTKQRIQPQKTSVYIELGSDSSEDTVNKATY-------------CSVGDQ-----ELLQITPQGT----RDEISLDSAKK     
+ 8 XP_028557582.1  83.1%  28.6%      RKKNNS---SKAAVFEIGSDSSEDAFKKTDTI----------RCVSLRRN-----YPARVDEGCAKNESPSPFHMEFSEL     
+ 9 AAD00168.1      96.1%  53.3%      KKNRQTQPRKKSVYIELDSDSSEETVTKPGD-------------CSVRDQ-----ELLQTAPQEA----GDEGKLHSAEE     
+10 AAC36493.1      96.3%  53.0%      KKNRQTQPQNKSVYIALESDSSEERVNAPDG-------------CSVRDQ-----ELFQIAPGGA----GDEGKLNSAKK     
+   consensus/100%                    p..pt.....pushhtltoDss.-t..hss..............huhtcp.......h..t..ts.....s.hphp..c.     
+   consensus/90%                     +pppphp..ppushlpLtoDSSE-thphss..............hSltcp.....E.hthtstss....ts.hphp.sch     
+   consensus/80%                     +pppphpstpKuVhIELsSDSSE-shstss..............sSltDp.....E.Lphsstuu....tsphplpsuch     
+   consensus/70%                     RsKpphQsppKSVYIELGSDSSE-sVsKuoh.............sSltDp.....ELLplsPpGA....tschsLssAKc     
+
+                     cov    pid  321          .         .         :         .         .         .         .         4 400 
+ 1 XP_019673495.1 100.0% 100.0%      ASCE--------------------FSE-DITNIEHRQPSNKDLTATEKHATEK----------HPEKYQ----GISVSNL     
+ 2 NP_989500.1     86.3%  30.0%      GAKEIILPNVIGETDFL----KEALDKKSMLNITEHIKCN-QVNTIEGQSSP----------------------LNVFDA     
+ 3 AAG43492.1      99.2%  75.8%      AACE--------------------FSETDVTNTEHHQPSNNDLNTTEKRATER----------HPEKYQ----GSSVSNL     
+ 4 XP_024835433.1  95.6%  70.8%      AACE--------------------FSEKDITNTEHHQLSIKDLITTQKHATET----------HPEKYQ----GISVSDF     
+ 5 NP_001013434.1  99.8%  81.6%      AACE--------------------FSG-DITNIEHHQSSNKDLTTTEKHATKK----------HPEKYQ----GISVSNL     
+ 6 XP_028992611.1  75.3%  12.4%      SLND------VSRAEGLLLQAQRNLKE---GNHTEAITLLKDAYTLLPHNAPQLLPTVKLISQKLDLCQLIRDVLSVSEM     
+ 7 AAC37594.1      99.2%  75.3%      AACE--------------------FSETDVTNTEHHQPSNNDLNTTEKRAAER----------HPEKYQ----GSSVSNL     
+ 8 XP_028557582.1  83.1%  28.6%      SAEDETPLNILGVCDY--------LEEPG--NTEG--ASIGKLEIPEKNAAV-------------EKSQ----GLSSPD-     
+ 9 AAD00168.1      96.1%  53.3%      AACE--------------------FSE-GIRNIEHHQCSD-DLNPTENHATER----------HPEKCQ----SISISNV     
+10 AAC36493.1      96.3%  53.0%      AACD--------------------FSE-GIRNIEHHQCSDKDLNPTENHATER----------HPEKCP----RISVANV     
+   consensus/100%                    u.p-....................hpt....Nhpt......ph.....pss........................s..p.     
+   consensus/90%                     uup-....................hpc.s.hNhpct..s..cl.shptpus..............-h........Slssh     
+   consensus/80%                     uAs-....................hsE.shtNhEc+.sS.tDLpssEp+As.p..........+.EKhQ....slSVush     
+   consensus/70%                     AACE....................FSE.slpNhEHHQsSspDLssTEp+Aocp..........HPEKhQ....ulSVSsh     
+
+                     cov    pid  401          .         .         .         .         :         .         .         . 480 
+ 1 XP_019673495.1 100.0% 100.0%      H----VEPCATN----------TRASSLQHENSSLLLTKGRMNVEKAEFCNESKQPGVARSQQSR---------------     
+ 2 NP_989500.1     86.3%  30.0%      D----LLTGQRDG--------IGNASPLKNDT-SFLKNAEEMDVEETQCSHKNQELDLEDSSEGR---------------     
+ 3 AAG43492.1      99.2%  75.8%      H----VEPCGTN----------THASSLQHENSSLLLTKDRMNVEKAEFCNKSKQPGLARSQHNR---------------     
+ 4 XP_024835433.1  95.6%  70.8%      H----VEPCGTD----------THASSLQHENSSLLLTENRLNVEKAEFCNKSKQPVLVKSQQSR---------------     
+ 5 NP_001013434.1  99.8%  81.6%      H----VEPCGTN----------THASSLQHENSSLLLTKHRMNVEKAEICNNSKQPGLARSQQSR---------------     
+ 6 XP_028992611.1  75.3%  12.4%      TLRYPVVSCVGKYRALRCSIEDVPSSSSEFQAVTALLWGSNLRVKQVLRVSRGVELQMFKSEIGNIQTLLHSSNPTNFVG     
+ 7 AAC37594.1      99.2%  75.3%      H----VEPCGTN----------THASSLQHENSSLLLTKDRMNVEKAEFCNKSKQPGLARSQHNR---------------     
+ 8 XP_028557582.1  83.1%  28.6%      -------PCLGKH--------DRNSNSMSEGGSCSLLNM-------AQLADEATKP-TADKQAGH---------------     
+ 9 AAD00168.1      96.1%  53.3%      C----VEPCGTD----------AHASSLQPETSSLLLIEDRMNAEKAEFCNKSKQPGIAVSQQSR---------------     
+10 AAC36493.1      96.3%  53.0%      H----VEPCGTD----------ARASSLQRGTRSLLFTEDRLDAEKAEFCDRSKQSGAAVSQQSR---------------     
+   consensus/100%                    .......ss.tp..........h.uss.p.ts.s.Lh.........s.hspps.p..h..pp.sp...............     
+   consensus/90%                     p....l.sChsp..........spuSShp.ts.ohLh.ttphpscpsphsscupp..hh.Spts+...............     
+   consensus/80%                     p....V.PCsss..........spASSLpppssShLLstpchssEcAphsscuppsshscSQpuR...............     
+   consensus/70%                     c....VEPCuTs..........s+ASSLQc-sSSLLLscsRhsVEKAEhCs+SKQPslAcSQpuR...............     
+
+                     cov    pid  481          .         5         .         .         .         .         :         . 560 
+ 1 XP_019673495.1 100.0% 100.0%      -------------------------------WAESKETCNDRQTPSTE--KKVVLNADPLC-R-----RKLSKQKSPCSD     
+ 2 NP_989500.1     86.3%  30.0%      -------------------------------LDKIKE--KDICVPSVEDVEMCEPMDDSLLEKEPPVEKPLQPKIPHCP-     
+ 3 AAG43492.1      99.2%  75.8%      -------------------------------WAGSKETCNDRRTPSTE--KKVDLNADPLCER-----KEWNKQKLPCSE     
+ 4 XP_024835433.1  95.6%  70.8%      -------------------------------WAESKGTCKDRQIPSTE--KKIVLNTDPLYRR-----KELRKQKPACPD     
+ 5 NP_001013434.1  99.8%  81.6%      -------------------------------WAESKETCNDRQIPSTE--KKVVVNADLLCGR-----KELNKQKPPHSD     
+ 6 XP_028992611.1  75.3%  12.4%      ILSRGLLLPRVGVEHHGIERTDVGNLGSGIYFSDAISTCLKYSTPSVTDGSRLLL----VCEVALGSCRHLHRRDCTLTQ     
+ 7 AAC37594.1      99.2%  75.3%      -------------------------------WAGSKETCNDRRTPSTE--KKVDLNADPLCER-----KEWNKQKLPCSE     
+ 8 XP_028557582.1  83.1%  28.6%      -------------------------------DAGNVST----GLPSGH--KHV------LCEN-----EEQLLQSQTSPE     
+ 9 AAD00168.1      96.1%  53.3%      -------------------------------WAASKGTCNDRQVPSTG--EKVGPNADSLSDR-----EKWTHPQSLCPE     
+10 AAC36493.1      96.3%  53.0%      -------------------------------WADSKETCNGRPVPRTE--GKADPNVDSLCGR-----KQWNHPKSLCPE     
+   consensus/100%                    ................................st.ht......hPpst..thh......l........c.........s.     
+   consensus/90%                     ...............................hutshtT..ththPSsp..p+h......Lhtp.....cphph.p..psp     
+   consensus/80%                     ...............................aAtuKpTCpchphPSsc..c+l...sD.Lst+.....+chp+pp..ss-     
+   consensus/70%                     ...............................WAtSKpTCpDRpsPSTE..cKls.NsDsLCcR.....+chp+pcssCs-     
+
+                     cov    pid  561          .         .         .         6         .         .         .         . 640 
+ 1 XP_019673495.1 100.0% 100.0%      SPRDSQDVPWITLNSSIQ------------------KVNEWFSRSDEMLTSDDSHDEGSESNPGVAGA-EVPNVVDGYSG     
+ 2 NP_989500.1     86.3%  30.0%      ---TLNEVSTKGLNQSIQ------------------KVNEWFSKSSRILSSSSSQNDHAEA-TDASGEGDISLS-DKDSC     
+ 3 AAG43492.1      99.2%  75.8%      NPRDTEDVPWITLNSSIQ------------------KVNEWFSRSDELLGSDDSHDGGSESNAKVADVLDVLNEVDEYSG     
+ 4 XP_024835433.1  95.6%  70.8%      SPGDSQDVPWVTLNNSIQ------------------KVNDWFSRSDEILTSDDSCDGGSESNNEVAGAVEIPNKVDGYSG     
+ 5 NP_001013434.1  99.8%  81.6%      SPRDSQDVPWITLNSSIR------------------KVNEWFSRSDEILTSDDSHDRGSELNTEVGGAVEVPNEVGEYSG     
+ 6 XP_028992611.1  75.3%  12.4%      APEGHHSVHGVQRTPNVHSEFEDDEYVVYSPDQVKLKYVIQFSLEGEELKEFSPVFFTSAEHCLVPMDQEVYMEDDRVES     
+ 7 AAC37594.1      99.2%  75.3%      NPRDTEDVPWITLNSSIQ------------------KVNEWFSRSDELLGSDDSHDGESESNAKVADVLDVLNEVDEYSG     
+ 8 XP_028557582.1  83.1%  28.6%      RP--LSQVSGKKLIRSIQ------------------KVKAWLSKSKEGLSPRSLQDTHA---QEVDQDPDLS---DGDSL     
+ 9 AAD00168.1      96.1%  53.3%      NSGATTDVPWITLNSSVE------------------KVNEWFSRTGEMLTSDSASARRHESNAEAAVVLEVSNEVDGGFS     
+10 AAC36493.1      96.3%  53.0%      NSGATTDVPWITLNSSIQ------------------KVNEWFSRTGEMLTSDNASDRRPASNAEAAVVLEVSNEVDGCFS     
+   consensus/100%                    .....ppV.hhth..slp..................Kh...hShptc.Lt..s....t......ss...-l....st...     
+   consensus/90%                     ts.s.ppVshhpLspSlp..................KVstWFS+osEhLsspsspsttst..stss.s.-l....Dt..s     
+   consensus/80%                     sstspp-VshlsLNsSIp..................KVN-WFS+osEhLsScsupsttuttpscsuss.-l..psDthpu     
+   consensus/70%                     sPtsopDVPWlTLNsSIQ..................KVNEWFSRSsEhLoSDsupDttuEuNscVussh-VsNcVDthSu     
+
+                     cov    pid  641          :         .         .         .         .         7         .         . 720 
+ 1 XP_019673495.1 100.0% 100.0%      SSE-----KIDLMASD----PHDALICESE-----------RVHTKPVESNIEDK----------------------IFG     
+ 2 NP_989500.1     86.3%  30.0%      ISE-----KTNPIVDS----VEFAVIERNK-----------R-WTKQTTYSIEDK----------------------IFG     
+ 3 AAG43492.1      99.2%  75.8%      SSE-----KIDLLASD----PHEALICKSE-----------RVHSKSVESNTEDK----------------------IFG     
+ 4 XP_024835433.1  95.6%  70.8%      SSE-----KINLMASD----PHGTLI--HE-----------RVHSKPVESNIEDK----------------------IFG     
+ 5 NP_001013434.1  99.8%  81.6%      SSE-----KIDLMASD----PQDAFICESE-----------RVHTKPVGGNIEDK----------------------IFG     
+ 6 XP_028992611.1  75.3%  12.4%      VTSLKEDVKVGLLDSSGQQLPLEAVHVKGKLIDLLSQVIIFQKYTNTSSVPIEAKYVFPLDESAAVCGFEAFINGKHIVG     
+ 7 AAC37594.1      99.2%  75.3%      SSE-----KIDLLASD----PHEALICKSE-----------RVHSKSVESNIEDK----------------------IFG     
+ 8 XP_028557582.1  83.1%  28.6%      VSQ-----KTEQIGYQ----KVFTVECEGD-----------RYLPKPVASKAEDK----------------------LFG     
+ 9 AAD00168.1      96.1%  53.3%      SSR-----KTDLVTPD----PHHTLMCKSG-----------RDFSKPVEDNISDK----------------------IFG     
+10 AAC36493.1      96.3%  53.0%      SSK-----KIDLVAPD----PDNAVMCTSG-----------RDFSKPVENIINDK----------------------IFG     
+   consensus/100%                    .op.....Kht.hs.p.......sh...tt...........p.hsp.st..hpsK......................lhG     
+   consensus/90%                     sSp.....Khs.hsss....s..slh.pst...........R.aoKssts.hpDK......................IFG     
+   consensus/80%                     sSc.....KhsLhsss....Pptslhscuc...........R.aoKsVpssIEDK......................IFG     
+   consensus/70%                     SSc.....Kl-LlusD....PcpAlhCcuc...........RsaoKsVpssIEDK......................IFG     
+
+                     cov    pid  721          .         .         :         .         .         .         .         8 800 
+ 1 XP_019673495.1 100.0% 100.0%      KTYRRKASLPNLSHTSEDLIIGACAIEPQITQAYPLTN---------KTKRKRRSTAGLHPEDFIKK---VDLAIVQKTP     
+ 2 NP_989500.1     86.3%  30.0%      KTYER-GRKSNPSTILRD-ILPATKKEDAAAEEGCLNNSRK-----DRLKRKRKSACILQPEDFIKK---KDLEEADRCP     
+ 3 AAG43492.1      99.2%  75.8%      KTYRRKASLPNLSHVTENLIIGAFVTEPQIIQERPLTN---------KLKRKRRATSGLHPEDFIKK---ADLA-VQKTP     
+ 4 XP_024835433.1  95.6%  70.8%      KTYRRKSSLPNFSHIAEDLILGAFTVEPQITQEQPLTN---------KLKCKRRGTSGLQPEDFIKK---VDLTIVPKTP     
+ 5 NP_001013434.1  99.8%  81.6%      KTYRRKASLPKVSHTTEVLTIGACAIEPQTMQTHPFMN---------KAEHKRRTTSSLHPEDFIKK---VELGIVPKTP     
+ 6 XP_028992611.1  75.3%  12.4%      QVKEKETARKEYKQAVEK-GHGAYLMD----QDAP-------DVFTISVGNLPPGATVLIKVTFVSELIVKDGSVFFSLP     
+ 7 AAC37594.1      99.2%  75.3%      KTYRKKASLPNLSHVTENLIIGAFVTEPQIIQERPLTN---------KLKRKRRPTSGLHPEDFIKK---ADLA-VQKTP     
+ 8 XP_028557582.1  83.1%  28.6%      RTYKRKRKSTPLWNKRETVCIQA--------KEGIAMNTESCDAPVKRLSRKRKATSELLPDDFIRR---QDGEVNSRRP     
+ 9 AAD00168.1      96.1%  53.3%      KSYQRKGSRPHLNHVTE--IIGTFITEPQITQEQPFTN---------KLKRKR--STSLQPEDFIKK---ADSAGVQRTP     
+10 AAC36493.1      96.3%  53.0%      KTYQRKGSRPHLNHVTE--IIGTFTTEPQIIQEQPFTN---------KLKRKR--STCLHPEDFIKK---ADLTVVQRIS     
+   consensus/100%                    pshp+.tt.....ph.c..hh.s........pt..............phtph...ss.L...sFlpc....-.t...phs     
+   consensus/90%                     +oYp+csphsphpphhE..hlsshhh-....pptsh.N.........+hppKR..ss.L.P-DFI++...hDht.s.+hP     
+   consensus/80%                     KTYcRKuuhsphsphsE..hlGAhhhEsthhQ-tPhhN.........+lc+KR.soosLpPEDFIKK...hDhs.s.+pP     
+   consensus/70%                     KTYcRKuShPplsHssEs.IIGAhhhEPQhhQEtPhsN.........KLKRKR+soosLpPEDFIKK...sDLshVp+sP     
+
+                     cov    pid  801          .         .         .         .         :         .         .         . 880 
+ 1 XP_019673495.1 100.0% 100.0%      EKLIEGTDRIGQNGHVMNRTNNGPENGTKGDY------------VQKEKNAKPTESLEKESAFRTKAEPISSNISNMESE     
+ 2 NP_989500.1     86.3%  30.0%      QGIKSSLGDAEKE--------KCDENSAVKENP----------LLEKRKGSTLAEFKERGLQWKNAAEKVSGKCSDGQLE     
+ 3 AAG43492.1      99.2%  75.8%      EMINQGTNQMEQNGQVMNITNSGHENKTKGDS------------IQNEKNPNPIESLEKESAFKTKAEPISSSISNMELE     
+ 4 XP_024835433.1  95.6%  70.8%      EKMTEGTDQTEQKCHGMNITSDGHENKTKRDY------------VQKEQNANPAESLEKESVFRTEAEPISISISNMELE     
+ 5 NP_001013434.1  99.8%  81.6%      EKLIEGINQIKRDGHVINITNNGPENETEGDY------------VQKEKNANPTESLEKESAFRTKTEPMSSRISNMELE     
+ 6 XP_028992611.1  75.3%  12.4%      GSVA-----------------PWKEKAALNQTTQV--------TVEK-------------------VCVTDASASSREFS     
+ 7 AAC37594.1      99.2%  75.3%      EMINQGTNQTEQNGQVMNITNSGHENKTKGDS------------IQNEKNPNPIESLEKESAFKTKAEPISSSISNMELE     
+ 8 XP_028557582.1  83.1%  28.6%      ---------------------GGDEDTALEEGGQAPALVVDSPVADQKEVELPTEFPAKE------------GLSVLETD     
+ 9 AAD00168.1      96.1%  53.3%      DNINQGTDLMEPNEQAVSTTSNCQENQIAGSN------------LQKEKSAHPTESLRKEPASTAGAKSISNSVSDLEVE     
+10 AAC36493.1      96.3%  53.0%      ENLNQGTDQMEPNDQAMSITSNGQENRATGND------------LQRGRNAHPIESLRKEPAFTAKAKSISNSISDLEVE     
+   consensus/100%                    ......................h.Epth.tp.............hpp.........................thSshp.p     
+   consensus/90%                     t.h..................ss.Estshtp.............lpptps...hE..t+t......sp.hs.phSshEh-     
+   consensus/80%                     p.l.puhs.ht.p........sspENpshtp.............lppccsspPhE.hcKE...pstscshSsslSshEhE     
+   consensus/70%                     -tltpGhsphc.ptpshshTssGpENpsts-s............lQ+c+sspPhESLcKEssapstAcslSsulSshElE     
+
+                     cov    pid  881          .         9         .         .         .         .         :         . 960 
+ 1 XP_019673495.1 100.0% 100.0%      LNSHSS----RAPKENR---------LRR----KSST-----------------RHMRALELV---VNRNPSPPDHT---     
+ 2 NP_989500.1     86.3%  30.0%      LNNSDQ----KSTK-NA---------CSTAKGCRHST-----------------RTRCAIH-L---VDRNPGSFDLA---     
+ 3 AAG43492.1      99.2%  75.8%      LNIHNS----KAPKKNR---------LRR----KSST-----------------RHIHALELV---VSRNLSPPNCT---     
+ 4 XP_024835433.1  95.6%  70.8%      LNIHRS----KAPK-NR---------LKR----KSST-----------------RKIPELELV---VSRNPSLPNHT---     
+ 5 NP_001013434.1  99.8%  81.6%      LNSSSS----KAPKKNR---------LRR----KSSA-----------------RHTCALEFV---VNRNLNPPDHS---     
+ 6 XP_028992611.1  75.3%  12.4%      LDMSVE----MPYEISRLQCLTHKVHVKR-TDCKAVL-SVLPGEVMGPEGFQLSVTLSEVHLPRMWVEKHPDKDSQACML     
+ 7 AAC37594.1      99.2%  75.3%      LNIHNS----KAPKKNR---------LRR----KSST-----------------RHIHALELV---VSRNLSPPNCT---     
+ 8 XP_028557582.1  83.1%  28.6%      LNEPSQSICLKSPESNRN-------HLKK----KSNTLSKIRR--------QLIKPVGELQLM---MDRSSRSPEKA---     
+ 9 AAD00168.1      96.1%  53.3%      LNVHSS----KAPKKNR---------LRR----KSSI-----------------RCALPLE-P---ISRNPSPPTCA---     
+10 AAC36493.1      96.3%  53.0%      LNVHSS----KAPKKNR---------LRR----KST------------------RCVLPLE-P---ISRNPSPPTCA---     
+   consensus/100%                    Ls...p....hs.c.st.........hpp....+ts..................h.h..lp.....hp+p.t..p.s...     
+   consensus/90%                     LN.psp....+usc.NR.........l++....Kush.................+ph..lc.....lsRs.s.ssps...     
+   consensus/80%                     LN.psp....KuPK.NR.........L+R....KSoh.................RphhtLc.s...lsRN.ssPsps...     
+   consensus/70%                     LN.psS....KAPKpNR.........L+R....KSSs.................RphtsLEhs...VsRNsusPsps...     
+
+                     cov    pid  961          .         .         .         0         .         .         .         . 1040
+ 1 XP_019673495.1 100.0% 100.0%      ----ELQIDSCSSSEEMV----KRKSSEQMLVRHSKTLQLVENKEPAPGAKKRNKPSKQINKRLASNTFPELNL----TN     
+ 2 NP_989500.1     86.3%  30.0%      ----EPLINSYPSNEEP-----SKADCERRQVRRSRRLQLLSEEIT-----KETGKMRVIKEAKNSDSGPEGSVFGVERN     
+ 3 AAG43492.1      99.2%  75.8%      ----ELQIDSCSSSEEI-----KKKKYNQMPVRHSRNLQLMEDKEPATGVKKSNKPNEQTSKRHDSDTFPELKL----TN     
+ 4 XP_024835433.1  95.6%  70.8%      ----ELPIDSSSSNEEM-----KKKHSSQMPVRQSQKLQLIGDKELTAGA-KNNKTYEQINKRLASDAFPELKL----TN     
+ 5 NP_001013434.1  99.8%  81.6%      ----ELQIESCSSSEEM-----KKQHLDQVPVRHNKTLQLMQDKEPAGRAKKSSKPGEQINKRLASHAFPELTL----TN     
+ 6 XP_028992611.1  75.3%  12.4%      VFYPEFEINSSSACDEVVLLLDTSESMRGESLRMAQRIAL------------------QVLKALDQ---------HLRVN     
+ 7 AAC37594.1      99.2%  75.3%      ----ELQIDSCSSSEEI-----KKKKYNQMPVRHSRNLQLMEGKEPATGAKKSNKPNEQTSKRHDSDTFPELKL----TN     
+ 8 XP_028557582.1  83.1%  28.6%      ----KIQTD-----DKL-----REVGTSQVRVRRSRRLQFSTE-----DAWRRSEPVKRGRKQLDKRETKKRRW-SYEEN     
+ 9 AAD00168.1      96.1%  53.3%      ----ELQIDSCGSSEET-----KKNHSNQQPAGHLREPQLIEDTEPAADA-KKNEPNEHIRKRRASDAFPEEKL----MN     
+10 AAC36493.1      96.3%  53.0%      ----ELQIESCGSSEET-----KKNNSNQTPAGHIREPQLIEDTEPAADA-KKNEPNEHIRKRSASDAFPEEKL----MN     
+   consensus/100%                    ....c..hp.....-c......pp.t.pt..ht..pp.th...................h.ct.sp.............N     
+   consensus/90%                     ....Eh.IpS.sus-Eh.....pctp.pp..stp.pp.QL.tt........+pst..cphpKthsppth.c.ph....hN     
+   consensus/80%                     ....ElpI-SsuSsEEh.....++pp.pQh.lR+s+plQLhppp....ts.Kpscs.cphpKphsScshPE.pl....hN     
+   consensus/70%                     ....ELQI-SsuSsEEh.....KKpp.sQhsVR+u+pLQLhp-pEssssA.KpscPscplpKRhsScsFPEhpL....pN     
+
+                     cov    pid 1041          :         .         .         .         .         1         .         . 1120
+ 1 XP_019673495.1 100.0% 100.0%      IPGVFTNCSSSNTLQEFVN--PGIQREELEESRGTIHVSDRTRDPKALVSSGGRSLQ-----------TERSVESTSISL     
+ 2 NP_989500.1     86.3%  30.0%      VLVHNSQCKDLRKQQDILSYMSLADRNGADLEANGIQISSKNSD--DMA-------------------KNRSFFNPTFSC     
+ 3 AAG43492.1      99.2%  75.8%      APGSFTNCSNTSELKEFVN--PSLPREEEEEKLETVKVSNNAEDPKDLMLSGERVLQ-----------TERSVESSSISL     
+ 4 XP_024835433.1  95.6%  70.8%      TPGYFTNCS--SKPEEFVH--PSLQR---EENLGTIQVSNSTKDPKDLILREGKALQ-----------IERSVESTNISL     
+ 5 NP_001013434.1  99.8%  81.6%      VSGFFANYSSSSKPQECIN--PGLRREEIEESRRMTQVSDSTRDPKELVLSGGRGLQ-----------TERSVESTSISL     
+ 6 XP_028992611.1  75.3%  12.4%      VILFSTDHK-----EAFLAARPVVEAR--EEAAQFIKLFTAVGG-----------------------STELWRPLRALSL     
+ 7 AAC37594.1      99.2%  75.3%      APGSFTKCSNTSELKEFVN--PSLPREEKEEKLETVKVSNNAEDPKDLMLSGERVLQ-----------TERSVESSSISL     
+ 8 XP_028557582.1  83.1%  28.6%      TPT------------------PSIAENYPSVLQGRLQKGVSLSDTSLMDVEGDASKACANPPASPQVGVEQTTEGSSPCC     
+ 9 AAD00168.1      96.1%  53.3%      KAGLLTSCSSPRKSQGPVN--PSPQRTG-TEQLETRQMSDSAKELGDRVLGGEPSGK----------TTDRSEESTSVSL     
+10 AAC36493.1      96.3%  53.0%      KAGLLTSCSSPRKPQGPVN--PSPERKG-IEQLEMCQMPDNNKELGDLVLGGEPSGK----------PTEPSEESTSVSL     
+   consensus/100%                    h.h..................s...t.......thhph.st.tt........................hp......s.sh     
+   consensus/90%                     h.s..sphp.....pt.lt..Ps..cp..p.ththhphsspsp-...h....................h-.o..ssshSh     
+   consensus/80%                     hss..oppp..pp.pt.ls..PuhtRp..pEphthhphusssp-.tthh.ttt.sht...........sEpShEuoolSL     
+   consensus/70%                     ssGhhTsCSs.pc.pthls..PulpRpt.-EphptlplSssscD.t-hhltGt.shp...........TERShESoSlSL     
+
+                     cov    pid 1121          .         .         :         .         .         .         .         2 1200
+ 1 XP_019673495.1 100.0% 100.0%      ------VPD---------ADYGTQD-------------SISLLEADTLGKAKTAPNQRVSL------CAAIENPKEA---     
+ 2 NP_989500.1     86.3%  30.0%      QLSNFNSPS---------SKAGSQEGEMLGKLFLPQSPSKTVLHAASILTEEKRSWSCTVFSQDK-GCCSRNVPKDF---     
+ 3 AAG43492.1      99.2%  75.8%      ------VPG---------TDYGTQE-------------SISLLEVSTLGKAKTEPNKCVSQ------CAAFENPKGL---     
+ 4 XP_024835433.1  95.6%  70.8%      ------VPD---------TDYSTQD-------------SISLLEAKTPEKAKTAPNPCVSL------CTATKNLKEL---     
+ 5 NP_001013434.1  99.8%  81.6%      ------VLD---------TDYGTQD-------------SISLLEADTLRKAKTVSNQQANL------CATIENPKEP---     
+ 6 XP_028992611.1  75.3%  12.4%      L-----PPSRGIRNLLLLSDGHIQN---------PE-PTLKLLRANA---QHSRLFSC---------GLSSTANRHM---     
+ 7 AAC37594.1      99.2%  75.3%      ------VPG---------TDYGTQE-------------SISLLEVSTLGKAKTEPNKCVSQ------CAAFENPKGL---     
+ 8 XP_028557582.1  83.1%  28.6%      I-----VPS---------A--SSQD-------------SCSLLHFASPEVEQTTS-------EDKQLTVAHQTEKNVLCT     
+ 9 AAD00168.1      96.1%  53.3%      ------VPD---------TDYDTQN-------------SVSVLDAHTVRYARTGSAQCMTQ------FVASENPKEL---     
+10 AAC36493.1      96.3%  53.0%      ------VPD---------TDYDTQN-------------SVSILEANTVRYARTGSVQCMTQ------FVASENPKEL---     
+   consensus/100%                    ......s.s.........s..t.Qp.............ohplLchts...tpp..............hhs.ps.+t....     
+   consensus/90%                     ......sPs.........schsoQp.............SholLcsto..htcots..p.........hsu.ps.Kth...     
+   consensus/80%                     ......VPs.........oDhsoQp.............SlSlLcsso.tht+Tts.pphs.......ssu.pssKph...     
+   consensus/70%                     ......VPs.........oDYuTQ-.............SlSLL-AsTlthA+TtsspChs.......ssAhcNPKch...     
+
+                     cov    pid 1201          .         .         .         .         :         .         .         . 1280
+ 1 XP_019673495.1 100.0% 100.0%      --IRGCSKDTRNGTESFTDPLRREDNHT-QETSIEMEENELDTQCLYNTFKVSKRQSFALFSNPGNPEKECATAWARSTS     
+ 2 NP_989500.1     86.3%  30.0%      --RIGKSPMAKNA----------------SEFTMEAEDSELDMQYLRNIFRSSKRQSFSLYP---TPMKACTTDDVASEK     
+ 3 AAG43492.1      99.2%  75.8%      --IHGCSKDTRNDTEGFKYPLGHEVNHS-RETSIEMEESELDAQYLQNTFKVSKRQSFALFSNPGNPEEECATFSAHCRS     
+ 4 XP_024835433.1  95.6%  70.8%      --IHRDFKDTKNNTEGFQDLLGHDINYVIQETSREMEDSELDTQYLQNTFKASKRQTFALFSNPGNPQKECATVFAHSGS     
+ 5 NP_001013434.1  99.8%  81.6%      --IHGCSKDTRNDTEGFVVPLTCKDNHT-QETSIEMEESELDTQCLRNMFKVSKRQSFALFSYPRDPEEDCVTVCPRSGA     
+ 6 XP_028992611.1  75.3%  12.4%      --LRALAQAGAGA--------------------YEFFDTKTKHTWTEKVARQVKRMA--------SP--GCSSVSVKWQQ     
+ 7 AAC37594.1      99.2%  75.3%      --IHGCSKDNRNDTEGFKYPLGHEVNHS-RETSIEMEESELDAQYLQNTFKVSKRQSFAPFSNPGNAEEECATFSAHSGS     
+ 8 XP_028557582.1  83.1%  28.6%      QKLEGDEFCTGDMMRSCKPPETNDEAAGTLELNSETEDSELDTNFMQKIFNGCKRQSFLL-----HPVKESAA-------     
+ 9 AAD00168.1      96.1%  53.3%      --VHG-SNNAGSGTEGLKPPLRHALNLS-QEK-VEMEDSELDTQYLQNTFQVSKRQSFALFSKPRSPQKDC----AHSVP     
+10 AAC36493.1      96.3%  53.0%      --VHG-SNNAGSGSECFKHPLRHELNHN-QET-IEMEDSELDTQYLQNTFQVSKRQSFALFSKLRSPQKDCTLVGARSVP     
+   consensus/100%                    ..h.t....sts......................Eh.-schchphh.phhp.sKR.s........ps..ts.........     
+   consensus/90%                     ..lcu.t.sstss.................Eh.hEhE-oELDtphhpphFpssKRQoF.......sP.ctCs...st...     
+   consensus/80%                     ..l+G.upsstss.csh....tpt.shs.pEh.hEhE-SELDsQaLpNhFpsSKRQSFuLas...sP.c-Css..s+s..     
+   consensus/70%                     ..l+GpSpsstssoEuhp.PLtpc.Nhs.pEpshEME-SELDsQaLpNsF+sSKRQSFALFS..tsPpc-Csoh.s+Sts     
+
+                     cov    pid 1281          .         3         .         .         .         .         :         . 1360
+ 1 XP_019673495.1 100.0% 100.0%      LRKQSPKVALEYEQKEENQGKKQSEIKHVQAVRATA-GFSAVSQKVEKPGDYAKCSIKGVPGLCQS--SQFRGNETELFI     
+ 2 NP_989500.1     86.3%  30.0%      LNTSCP------DQVEE-RNSKYLKTENLQEEKTTAENLSSVCEK------FETCE-----SACVSPVSCFVSSAACVHT     
+ 3 AAG43492.1      99.2%  75.8%      LKKQSPKVTFEREQKEQNQGKNESNIKPVQTVNITA-GFPVVCQK-DKPVDYAKCSIKGGSRFCLS--SQFRGNETGLIT     
+ 4 XP_024835433.1  95.6%  70.8%      LRDQSPRDPLKCRQKEDSQGKSESKSQHVQAICTTV-HFPVADQQDRTPGDDAKCSAKEVTRVCQS--SQLRGHKTELVF     
+ 5 NP_001013434.1  99.8%  81.6%      FGKQGPKVTLECGQKEESQGKKESEIRHVQAVHTNA-GFSAVSQKAKKPGDFAKCSIKGVSRLCLS--SQFKGKETELLI     
+ 6 XP_028992611.1  75.3%  12.4%      FSASAPTPVQAPQQIHA----------LFNDCHTLVYGFVPHCTQATLFGDLSGQELK--TMVSTSELQKTRGT------     
+ 7 AAC37594.1      99.2%  75.3%      LKKQSPKVTFECEQKEENQGKNESNIKPVQTVNITA-GFPVVGQK-DKPVDNAKCSIKGGSRFCLS--SQFRGNETGLIT     
+ 8 XP_028557582.1  83.1%  28.6%      ------------------EIQKETRISLGEDGKVDCLKKSTCIDK--------FCEEKRDAVACEVNSSVQRLASCATSF     
+ 9 AAD00168.1      96.1%  53.3%      SKELSPKVTAKGKQKER-QGQEEFEISHVQAVAATV-GLPVLCQE-GKLAADTMCD--RGSRLCPS--SHYRSGENGLSA     
+10 AAC36493.1      96.3%  53.0%      SREPSPKVTSRGEQKER-QGQEESEISHVQAVTVTV-GLPVPCQE-GKPGAVTMCA--DVSRLCPS--SHYRSCENGLNT     
+   consensus/100%                    ............................hpt.th.s.thss..pp........hpt......hs.s..p..h.t......     
+   consensus/90%                     .tt.sP......tQhct.p.pp..p.p.hpshphss.thsshspp.......thCp....shhC.S..Sph+uttsth.h     
+   consensus/80%                     .pp.uPpss.t.pQhEp.psppp.php.lQsspsss.shsssspc.th.ss.shCp..tssthC.S..SphRuspstl.h     
+   consensus/70%                     hpcpuP+ss.chcQKEc.QGppEocIphVQslpsTs.GhssssQc.tp.ss.stCs.KtsophC.S..SpaRuscstL.h     
+
+                     cov    pid 1361          .         .         .         4         .         .         .         . 1440
+ 1 XP_019673495.1 100.0% 100.0%      ANNHDISKNPYH--IPPLSPIRSSVNAVCKKNLSEEKFEQRSMSPERAVGNESV-----IQSTVNTISQNNIRENTFKEV     
+ 2 NP_989500.1     86.3%  30.0%      VENQDVSKVANHGNLTTLLRICAARNEDGNRPQKGEQGSEKTLST--GIGVESKLRLSPVRSNRSQSDQSNTEEHAFQRT     
+ 3 AAG43492.1      99.2%  75.8%      PNKHGLLQNPYH--IPPLFPIKSFVKTKCKKNLLEENFEEHSMSPEREMGNEN------IPSTVSTISRNNIRENVFKEA     
+ 4 XP_024835433.1  95.6%  70.8%      ANKQGVSEKPNL--IPSLSPIKSSVKTICKKSPS-EKFEEPVTSPEKTLGSESI-----IQSAVSTISQNNIQESTFKEV     
+ 5 NP_001013434.1  99.8%  81.6%      ANYHGISQNPYH--IPPLSPIRSCVKTLCQENLSEEKFEQHSMSPERAVGNERV-----IQSTVSTISQNNIRECASKEV     
+ 6 XP_028992611.1  75.3%  12.4%      --------------FLHKLTARALIRDYEDGNLDTDEAEHEGKKAE-------------LKSFIVELSKEF---------     
+ 7 AAC37594.1      99.2%  75.3%      PNKHGLLQNPYR--IPPLFPIKSFVKTKCKKNLLEENFEEHSMSPEREMGNEN------IPSTVSTISRNNIRENVFKEA     
+ 8 XP_028557582.1  83.1%  28.6%      PDHERRTEHPQLA-SQTAFPDQLATKNPYSPQQSQKPVTKKSMSPQ-------------IRAEVANSNNSS-------SS     
+ 9 AAD00168.1      96.1%  53.3%      TGKSGISQNSHF--KQSVSPIRSSIKTDNRKPLTEGRFERHTSSTEMAVGNENI-----LQSTVHTVSLNN-RGNACQEA     
+10 AAC36493.1      96.3%  53.0%      TDKSGISQNSHF--RQSVSPLRSSIKTDNRKTLTEGRFEKH---TERGMGNETA-----VQSTIHTISLNN-RGDACLEA     
+   consensus/100%                    .................h...p..hpt..p.....t.hpp....s..............l.u.h.p.s.p..........     
+   consensus/90%                     st.pth.p.s.h..h.sh.shpu.hps.tpts..ttphppcs.psp.............l.Stltp.s.ss.......ps     
+   consensus/80%                     ssppsl.pps.h..h.sl.Pl+u.l+s.spcs.ppcphEc+shSsE.thGsEp......lpSslsslSpsN.ptps..cs     
+   consensus/70%                     ssppslopss.h..h.sl.PI+SslKs.sc+sLsp-pFEc+ohSsEhthGsEs......lpSsVsTlSpNN.ctsshpEs     
+
+                     cov    pid 1441          :         .         .         .         .         5         .         . 1520
+ 1 XP_019673495.1 100.0% 100.0%      SSSSV--NEVGSSANEVGSSINEVGSS---GENIQTELGRNRGPKLSAMLRLGLMQ---------PEVYEQSLPISNCKC     
+ 2 NP_989500.1     86.3%  30.0%      GL----------------NAVSETYFS---SESNQVE-------KAEVVDDKGLMQHFQPSPMLCPTACQQNPAEFNCEL     
+ 3 AAG43492.1      99.2%  75.8%      SSSNI--NEVGSSTNEVGSSINEVGSS---DENIQAELGRNRGPKLNAMLRLGVLQ---------PEVYKQSLPESNCKH     
+ 4 XP_024835433.1  95.6%  70.8%      SSNSV--NEVGSSTNEVGSSVNEVGSS---GENIQAEPGRNREPKLRALLGLGLTQ---------PEVYKQSLPVSNCHH     
+ 5 NP_001013434.1  99.8%  81.6%      GSSSV--NEVVSSTNEVGSSVNEVGSS---GENIQAELGRNRGPKLNAMLRLGLMQ---------PEVCKQSLSLSNCKH     
+ 6 XP_028992611.1  75.3%  12.4%      -------SILSQFTSF--VAIEERGSD-------QSQQGFTDIPKLIAEEDVDIL----------PYISWAS-PEESFEC     
+ 7 AAC37594.1      99.2%  75.3%      SSSNI--NEVGSSTNEVGSSINEIGSS---DENIQAELGRNRGPKLNAMLRLGVLQ---------PEVYKQSLPGSNCKH     
+ 8 XP_028557582.1  83.1%  28.6%      GSPNVWRNVIIHSTSL--SGINETRSSINNSEDAESESTKNKGLALNSQPE--FMQ-----P--CPVICQLPHSEFSGVH     
+ 9 AAD00168.1      96.1%  53.3%      GS----------------GSIHEVCST---GDSFPGQLGRNRGPKVNTVPPLDSMQ---------PGVCQQSVPVSD-KY     
+10 AAC36493.1      96.3%  53.0%      SS----------------GSVIEVHST---GENVQGQLDRNRGPKVNTVSLLDSTQ---------PGVSKQSAPVSD-KY     
+   consensus/100%                    ..................sul.Ehh.s........sp.......th.s......h..........P.h...s.s..s..h     
+   consensus/90%                     u.................sulpEhtSo...s-s.psp.shsc..Klps...hs.hQ.........P.l.pts.s..s.ch     
+   consensus/80%                     uS................uulpEstSo...sEshQup.s+N+tPKlpsh.tlshhQ.........PtlhpQShs.pshch     
+   consensus/70%                     uS.....s.l.p.ss...uSlsElsSS...uEshQuE.GRNRGPKLsuh.cLslhQ.........PtVhpQShP.Sss+a     
+
+                     cov    pid 1521          .         .         :         .         .         .         .         6 1600
+ 1 XP_019673495.1 100.0% 100.0%      PEMK--------RQGENEGVVQSVNADFSPCLI-SDNVEQPMESS-RASQVCSETPNDLL-----------NGDEIKGKI     
+ 2 NP_989500.1     86.3%  30.0%      TEKKIITRERSLVKGNEERVIQTVSTGLSEFSV-REALEESLKGH-SDFTDLSETPDGLLC----------SDNDTEESA     
+ 3 AAG43492.1      99.2%  75.8%      PEIK--------KQ-EYEEVVQTVNTDFSPCLI-SDNLEQPMGSS-HASQVCSETPDDLL-----------DDGEIKEDT     
+ 4 XP_024835433.1  95.6%  70.8%      PEIK--------RQGENEDMPQAVKADFSPCLI-SDNLEQPTGSR-HASQVCSETPDNLL-----------NDDEIKENS     
+ 5 NP_001013434.1  99.8%  81.6%      PEMK--------WQGQSEGAVLSVSADFSPCLI-SDNPEQPMGSS-RSSQVCSETPDDLL-----------NGDKIKGKV     
+ 6 XP_028992611.1  75.3%  12.4%      SDVD--------FLSESMDQWPSLESSTTVCLD-RMNYGEPTSPH----LTCGYIPTKLI------VALPPALTPIRLGA     
+ 7 AAC37594.1      99.2%  75.3%      PEIK--------KQ-EYEEVVQTVNTDFSPYLI-SDNLEQPMGSS-HASQVCSETPDDLL-----------DDGEIKEDT     
+ 8 XP_028557582.1  83.1%  28.6%      GEKN-SPMEQKQLHSDTEEATNNCSTGTPKCLVHSNNLEQCAEEEYHGFEVSSETPEGLLGPVIRSIEGSPNLGEMERND     
+ 9 AAD00168.1      96.1%  53.3%      LEIK--------KQ-EGE----AVCADFSPCLF-SDHLEQSM-SG-KVFQVCSETPDDLL-----------DDVEIQGHT     
+10 AAC36493.1      96.3%  53.0%      LEI---------KQ-ESK----AVSADFSPCLF-SDHLEKPMRSD-KTFQVCSETPDDLL-----------DDVEIQENA     
+   consensus/100%                    .-h.........h..p......shpsshs.h...p.t.tpsh..t.....s.u.hPptLl...........s.s.hp.t.     
+   consensus/90%                     .Ehp........hp.p.c....slpssho.hLh.ppphEpshtsp.ps.pssSETPssLL...........s.schptps     
+   consensus/80%                     sEhc........hp.-tEt...sVssshSsCLh.S-slEpshtup.+s.pVCSETP-sLL...........sss-Ictps     
+   consensus/70%                     sEhK........hQ.EsEthh.sVssDFSPCLl.SDNLEQPhtSp.+s.QVCSETPDcLL...........sssEIctss     
+
+                     cov    pid 1601          .         .         .         .         :         .         .         . 1680
+ 1 XP_019673495.1 100.0% 100.0%      SFAES-AKERSAVF---GKSVQKGEFRRS-PSPLDHTHLAQGHQTETRKLESSEENVSSEEEEL--PCFQHLLFGKVTSI     
+ 2 NP_989500.1     86.3%  30.0%      SFYVTNRKDTSAVFVKRSGAAWVKEVNDSVVSCKPRSEGIQRFRRRAQKLQSSDEE-SSDDEDL--PSFQELMFGKSVST     
+ 3 AAG43492.1      99.2%  75.8%      SFAENDIKESSAVF---SKSVQRGELSRS-PSPFTHTHLAQGYRRGAKKLESSEENLSSEDEEL--PCFQHLLFGKVSNI     
+ 4 XP_024835433.1  95.6%  70.8%      HFAESDIKERSAVF---SESVQKGEFRGS-PGPFTHTHLAQGHQRGAGKLE-SEETVSSEDEEL--PCFQQLLFGKVTST     
+ 5 NP_001013434.1  99.8%  81.6%      SFAESDIKEKSAVF---SKSVQSGEFSRS-PSPSDHTRLAQGYQRGTKKLESSEENMSSEEEEL--PCFQHLIFGKVTNM     
+ 6 XP_028992611.1  75.3%  12.4%      S---------EVAFPL--------------PPPSAHLQAPASLPFQFGALPGPAPPLAPPSAHLQAPASRSFLFGASLRA     
+ 7 AAC37594.1      99.2%  75.3%      SFAENDIKESSAVF---SKSVQKGELSRS-PSPFTHTHLAQGYRRGAKKLESSEENLSSEDEEL--PCFQHLLFGKVNNI     
+ 8 XP_028557582.1  83.1%  28.6%      SLAMSPGRDEQTPL---KGDLGSGNGRSS---RLSHKGLVRTQQRWARKLPSSEED-SSEDEEL--PSFQALIFGKSAST     
+ 9 AAD00168.1      96.1%  53.3%      SFGEGDIMERSAVF---NGSILRRESSRS-PSPVTHASKSQSLHRASRKLESSEESDSTEDEDL--PCFQHLL-SRISNT     
+10 AAC36493.1      96.3%  53.0%      SFGEGGITEKSAIF---NGSVLRRESSRS-PSPVTHASKSRSLHRGSRKLEFSEESDSTEDEDL--PCFQHLL-SRVSST     
+   consensus/100%                    p.........ps.h....................s+.th.tt..h..ttL..st...us.ptcL..Ps.pthh.ut..ph     
+   consensus/90%                     Shh.s.hh-ppssF...ttsh..tp.ptS.sss.sHtphspshpptstKL..S-Es.So--E-L..PsFQpLl.u+sssh     
+   consensus/80%                     SFu.sshp-pSAlF...stul.ptE.ppS.PuPhsHsphspuhpRtspKLpuSEEs.SoE-E-L..PsFQpLlFG+sssh     
+   consensus/70%                     SFuEssh+EpSAVF...stSl.ptEhpcS.PSPhsHsphuQuhpRtu+KLESSEEs.SSEDE-L..PCFQcLLFGKlssh     
+
+                     cov    pid 1681          .         7         .         .         .         .         :         . 1760
+ 1 XP_019673495.1 100.0% 100.0%      P---------SQSTSHNAIATEGLSKKTEANLESLKDSLHDCSNQVTSAKESQEHHL---SEEARCSGSLFSSQCSASED     
+ 2 NP_989500.1     86.3%  30.0%      P---------LQIQKQ---VTSVVQSSANPSTLPCSECLNE-NNEQKTLEAALSNECASPSQESECSVNLFSSQSNMSEE     
+ 3 AAG43492.1      99.2%  75.8%      P---------SQSTRHSTVATECLSKNTEENLLSLKNSLNDCSNQVILAKASQEHHL---SEETKCSASLFSSQCSELED     
+ 4 XP_024835433.1  95.6%  70.8%      L---------SPSTGCNTVATEGLSKETEENLESLKSGLNDCSGQVTSAKVSQEHHL---NEEARCSGSLFSSQCSAMED     
+ 5 NP_001013434.1  99.8%  81.6%      P---------SQSTSHNAVAAEGLSNKTEENLDSLKNSLSDISNQVPSAKASQEHHL---SEEARCSGSLFSSQCSALED     
+ 6 XP_028992611.1  75.3%  12.4%      PAGHPPPSAHLQAPASRSFLTGAPSRPASYSLLSLDEA--KCAAIDSLTEA--------PLFQLQAAASGFSSWGTSLGA     
+ 7 AAC37594.1      99.2%  75.3%      P---------SQSTRHSTVATECLSKNTEENLLSLKNSLNDCSNQVILAKASQEHHL---SEETKCSASLFSSQCSELED     
+ 8 XP_028557582.1  83.1%  28.6%      P---------LDPLKK---------KKTSGGMPALKSS-NKCS-----VETKEEHVC--PSQGSECSMKLFSSQSHTAED     
+ 9 AAD00168.1      96.1%  53.3%      P----------ELTRCRSAVTQGIPEKAEGTQAPWKGSSSDCNNEVIMIEASQEHQF---SEDPRCSGRMFSSQNSAAQG     
+10 AAC36493.1      96.3%  53.0%      P----------ELTRCSSVVTQRVPEKAKGTQAPRKSSISDCNNEVILGEASQEYQF---SEDAKCSGSMFSSQHSAALG     
+   consensus/100%                    ..............tp.........p.sp.s..shpts..c.s.....hc............t.psuhphFSS.tp...t     
+   consensus/90%                     P..........p..tp...hsth..ppsp.s..shcpu.pchss....hcst.p..h...sppscCSsphFSSQsst.ts     
+   consensus/80%                     P..........p.spppshsTpslscpsptsh.shKsu.s-Cssps..scsupEaph...Sp-scCSushFSSQsothps     
+   consensus/70%                     P..........psTpppshsTpslscpsctsh.uLKsSlsDCuNpVh.scASQEHph...SE-s+CSuSLFSSQsSshE-     
+
+                     cov    pid 1761          .         .         .         8         .         .         .         . 1840
+ 1 XP_019673495.1 100.0% 100.0%      SAVNTNTQDPFLMFDPPSKQVRHQSENVDV-LSDEELVS-YDDERE--PGLEEDNHEEEQSVDSNLGEAASGYENETSLS     
+ 2 NP_989500.1     86.3%  30.0%      SVDGAQELKKTLTQVSNVKKSKEAPQSCSGGL--KRLKNNLNDEY-----------QEDPNMGANLGE-ASGYDSETSRV     
+ 3 AAG43492.1      99.2%  75.8%      LTANTNTQDPFLI--GSSKQMRHQSESQGVGLSDKELVS-DDEERG--TGLEENN-QEEQSMDSNLGEAASGCESETSVS     
+ 4 XP_024835433.1  95.6%  70.8%      LTTNTNTQDPFLMFERPSKQV-YQSESEEV-LSDKELVS-DDEERE--TGLEEDSCQEEQSVDSDLGEAVSDHVSETSLS     
+ 5 NP_001013434.1  99.8%  81.6%      LTVNTNTQDPFSMFDPTSKQVRHQSENLDV-LNDKELVSDDDDERE--PGLEEDSPQEEQSVDSDLGEVASGYESETSLS     
+ 6 XP_028992611.1  75.3%  12.4%      L--------------PP--------------LSPPSADS-----------------QAPTSPCFSPGDPEGAGNFELASL     
+ 7 AAC37594.1      99.2%  75.3%      LTANTNTQDPFLI--GSSKQMRHQSESQGVGLSDKELVS-DDEERG--TGLEENN-QEEQSMDSNLGEAASGCESETSVS     
+ 8 XP_028557582.1  83.1%  28.6%      F--RSRPQDSRHL--TPAPTSRENLESLSG---NKKAAQ-PRDEVSKDAGQQKDEQQEQVDSEFNLGEETLDYDSEASCL     
+ 9 AAD00168.1      96.1%  53.3%      STANANSQDSNFI--PPSKQRSHQCGNEEAFLSDKELIS-DNEEMA--TCLEEDNDQEEDSIIPD--SEASGYESETNLS     
+10 AAC36493.1      96.3%  53.0%      SPANALSQDPDFN--PPSKQRRHQAENEEAFLSDKELIS-DHEDMA--ACLEEASDQEEDSIIPD--SVASGYESEANLS     
+   consensus/100%                    ................s..................ph.p.................pt..s...s..p...sh..Ehs..     
+   consensus/90%                     ...ts...c......sss.p...t.ts.ts.L.scchhs..p--h...........QEp.s...s..p.sushpsEssh.     
+   consensus/80%                     .sssspsQDs.hh..ssuKp.pcpsps.ts.LssKcLhS..p-Eht..ss.pcsp.QE-pShtss.G-.sSuh-SEsuhs     
+   consensus/70%                     .ssNspoQDshhh..ssSKQh+aQsEs.ps.LSDKELlS.sc-Eht..ssLEEss.QEEpShsssLGEsASGa-SETSlS     
+
+                     cov    pid 1841          :         .         .         .         .         9         .         . 1920
+ 1 XP_019673495.1 100.0% 100.0%      EDCSGVSSQSDILTTQQRDTMQDNLIKLQQEMAELEAVLEQHESQPSNSSP-------ALIRDSYAPEDLFNLEQNTSEK     
+ 2 NP_989500.1     86.3%  30.0%      EDSHEPFSQGEILSTQQKNAMQNNLKKLQQEMAVLEAVLKQHGSQDAEVLPLCRELPYCSIGGTLGLERMRQETENVSE-     
+ 3 AAG43492.1      99.2%  75.8%      EDCSGLSSQSDILTTQQRDTMQDNLIKLQQEMAELEAVLEQHGSQPSNSYP-------SIISDSSALEDLQNPEQSTSEK     
+ 4 XP_024835433.1  95.6%  70.8%      EDGVGLSSQSDILTTQQRDTMQDNLLKLQQEMAELEAVLERHGSQPSHSSA-------SLTADSRGPEHLLNLEQDTSER     
+ 5 NP_001013434.1  99.8%  81.6%      EDCSRLSSQSDILTTQQRDTMQDNLIKLQQEMAELEAVLEQHESQPSNSSP-------SLIADSCSPEDLLNPEQNASER     
+ 6 XP_028992611.1  75.3%  12.4%      DVAPAPPAH------RRRSVLQ------------ICGTMDVHGSMDVSAPP-----------------------------     
+ 7 AAC37594.1      99.2%  75.3%      EDCSGLSSQSDILTTQQRDTMQHNLIKLQQEMAELEAVLEQHGSQPSNSYP-------SIISDSSALEDLRNPEQSTSEK     
+ 8 XP_028557582.1  83.1%  28.6%      GDSSGLSSQSEILTTQQKNAMQNSLKKLQQKMAILEAVLKQ-GSQSAVHEG-------SL---------LPGEEGDFTGG     
+ 9 AAD00168.1      96.1%  53.3%      EDC----SQSDILTTQQRATMKYNLIKLQQEMAHLEAVLEQRGNQPSGHSP-------SLLADPCALEDLPDLEPNMSGA     
+10 AAC36493.1      96.3%  53.0%      EDC----SQSDILTTQQRATMKDNLIKLQQEMAQLEAVLEQHGSQPSGHPP-------CLPADPCALEDLPDPEQNRSGT     
+   consensus/100%                    tss....up......pp+sshp............lpushc..ts.ss...s.............................     
+   consensus/90%                     -Ds....SQu-ILoTQQ+ssMp.sLhKLQQcMA.LEAVLcp+tSQsutt.s.......s..........h.t.p.shot.     
+   consensus/80%                     EDs.t..SQS-ILTTQQRssMQpNLhKLQQEMA.LEAVL-QHGSQsusp.P.......sl.tss.u.EcL.s.EtshStt     
+   consensus/70%                     EDsst.sSQSDILTTQQRsTMQsNLlKLQQEMApLEAVLEQHGSQPSss.P.......ulhuDs.u.EcL.s.EpshStt     
+
+                     cov    pid 1921          .         .         :         .         .         .         .         0 2000
+ 1 XP_019673495.1 100.0% 100.0%      -VLTSEKSSDCLISQNPESLSADKFQVS-LDSSTSKTKEPGMRRSSPSQSRLLDTRQCVRSHSSSLQSTNCLSQKELIKA     
+ 2 NP_989500.1     86.3%  30.0%      -----------------------------HDSETK---------------------------------------------     
+ 3 AAG43492.1      99.2%  75.8%      AVLTSQKSSEYPISQNPEGLSADKFEVS-ADSSTSKNKEPGVERSSPSKCPSLDDRWYMHSCSGSLQNTNYPSQEELIKV     
+ 4 XP_024835433.1  95.6%  70.8%      AILTSEKSRDYSRSQNPESLSADKFPVS-LDSSTNKNKEPGMERSSASKFQLSYNRWYMHS-SRSLQDRNCPSQKEPINV     
+ 5 NP_001013434.1  99.8%  81.6%      -VLTSEKSSDSPISQNPESLSTDKFQVF-LDSSTSKNGEPGMIRSSPSQSRLLDTRWYVHSCPRSLQDTNCPSQKELTKV     
+ 6 XP_028992611.1  75.3%  12.4%      -EVSPPPSAQSLADQLPQSFAQQAQQIQSADMIVPQAKKKFKFRAGRAK-------------------------------     
+ 7 AAC37594.1      99.2%  75.3%      AVLTSQKSSEYPISQNPEGLSADKFEVS-ADSSTSKNKEPGVERSSPSKCPSLDDRWYMHSCSGSLQNRNYPSQEELIKV     
+ 8 XP_028557582.1  83.1%  28.6%      ---------------QTKSARGSKADLS-SESKQS---------------------------------------------     
+ 9 AAD00168.1      96.1%  53.3%      AILTSKNINENPVSQNLKSACDDKFQLQHLEGPTSGDDESGMGRPSPFKSPLAGSRGSAHGCSRHLQKRNSPSQEELLQP     
+10 AAC36493.1      96.3%  53.0%      AILTSKNINENPVSQNPKRACDDKSQPQPPDGLPSGDKESGMRRPSPFKSPLTSSRCSARGHSRSLQNRNSTSQEELLQP     
+   consensus/100%                    ..............................-.................................................     
+   consensus/90%                     .................pthttpt......-u.ss.............................................     
+   consensus/80%                     ..los...tp..hsQpscuhsssK.plp.hDu.sststc.hh.Rsu..p...............................     
+   consensus/70%                     .lLTSpp.s-..hSQNPcuhssDKhplp.hDSpTStscEsGh.RsSs.p.....sR..h+u.stpLQppN..SQcE.hps     
+
+                     cov    pid 2001          .         .         .         .         :         .         .         . 2080
+ 1 XP_019673495.1 100.0% 100.0%      VDGEELQLTKSEPRDFMEQSYLPRQDLEGTPYFESGISLFSDDPESDFSVDRAPEPVHVSSMPTSTSALKLPQFQVEESA     
+ 2 NP_989500.1     86.3%  30.0%      ---------------LTKASVLP---------------VLCGNVTKNPNS--------------SSFSVKHPCPQTAEAT     
+ 3 AAG43492.1      99.2%  75.8%      VDVEEQQLEESGPHDLTETSYLPRQDLEGTPYLESGISLFSDDPESDPSEDKAPESAHVGNIPSSTSALKVPQLKVAESA     
+ 4 XP_024835433.1  95.6%  70.8%      ADMEEQQLAKREAQDLM-GSFLPRQDQEGTPYLKSGISLFSHEPESDPSEDRAAEPAHVHSMPPSASALKLSQFRVEEST     
+ 5 NP_001013434.1  99.8%  81.6%      VSMEEQQPTESEARDLMEQSYLSRPDLEGAPYLESGISLFSDDPESDPSSHRASELAHVSSMPTSTSALKLPQFQVEESA     
+ 6 XP_028992611.1  75.3%  12.4%      ---------------LSQGSILQ-------PEFQSALAFTHLSCRTSLSAASALQQIAPPPPPPPP-----PQP-LHRLS     
+ 7 AAC37594.1      99.2%  75.3%      VDVEEQQLEESGPHDLTETSYLPRQDLEGTPYLESGISLFSDDPESDPSEDRAPESARVGNIPSSTSALKVPQLKVAESA     
+ 8 XP_028557582.1  83.1%  28.6%      ---------------LQGAFSTPVRNMRGTP-----------GSSKSKEQTSSLLAAETAMGPPSA---------THDAG     
+ 9 AAD00168.1      96.1%  53.3%      AGSE----ASSEPHNSTGQSCLPRRELEGTPYLGSGISLFS---SRDPESESPKEPAHIGTTPASTSALKIPQGQVA--F     
+10 AAC36493.1      96.3%  53.0%      AXLE----KSCEPHNLTGRSCLPRQDLEGTPYPESGIRLVS---SRDPDSESPKVSALVCTAPASTSALKISQGQVAGSC     
+   consensus/100%                    ..................t..h......................pps.p...............ss.........ht...     
+   consensus/90%                     ...............h.ttShLs.......P.......hhp...pps.pttps...h.....PsSs.....sp..stt.s     
+   consensus/80%                     ...............LhttShLPh.p.cGsP..tSultlhs.tspps.sppps...stssshPsSs.ulKhsQ.pltcus     
+   consensus/70%                     s..E....tpptspsLpttShLPRp-hEGTPYhpSGIuLhS.ssppDPspcpu.psAclsshPsSoSALKlPQhpVt-us     
+
+                     cov    pid 2081          .         1         .         .         .         .         :         . 2160
+ 1 XP_019673495.1 100.0% 100.0%      KSTAAVHITNTAGY--------------NKREDIEGKERPEMMSSTKRVNKRISMVASGLTPKELVLVQKFARRHQITLT     
+ 2 NP_989500.1     86.3%  30.0%      DSSAVAQGDNKSNVQVCKSKRSVCFP-TSVLHNVAGKENAASSGTTCRTE--MSIVASGLNQSEHLMVQKFARKTQSTFS     
+ 3 AAG43492.1      99.2%  75.8%      QSPAAAHTTNTAGY--------------NAMEESVSREKPELTASTERVNKRMSMVVSGLTPEEFMLVYKFARKHHITLT     
+ 4 XP_024835433.1  95.6%  70.8%      KNPAAAHIANTTRC--------------NLREESMSKEKPEVISSTERSKKRLSMVASGLTPKELMLVQKFARKHHVTLT     
+ 5 NP_001013434.1  99.8%  81.6%      KSTAAVHIASTAGY--------------NKSEDSVGIEKPEVISSTRGVNKRISMVASGLTPKEFMLVHKFARKHHISLT     
+ 6 XP_028992611.1  75.3%  12.4%      RKSESAH------------REGVCFYHTPVLHDLAPADDYVLARRGTRLRK------SPVKPLKVKWTKIFLMQQTEGYW     
+ 7 AAC37594.1      99.2%  75.3%      QSPAAAHTTDTAGY--------------NAMEESVSREKPELTASTERVNKRMSMVVSGLTPEEFMLVYKFARKHHITLT     
+ 8 XP_028557582.1  83.1%  28.6%      RQRALRHSAQGSPV---------CPL-SRITHCSTSKGNSERPFVTSKKN--MSLVASGLNQGELRLVQMFARKNESTWS     
+ 9 AAD00168.1      96.1%  53.3%      RSAAAAG-ADKA------------------VVGIVSKIKPELTSSEERADRDISMVVSGLTPKEVMTVQKFAEKYRLTLT     
+10 AAC36493.1      96.3%  53.0%      RSPAAGG-ADTA------------------VVEIVSKIKPEVTSPKERAERDISMVVSGLTPKEVMIVQKFAEKYRLALT     
+   consensus/100%                    pp.t.ht.........................t..sh.p......tpt.p.......Sslp..chhhs.hFh.p.p.sh.     
+   consensus/90%                     ppsAsst.spts..................h.p.hut.psth.tspp+hp..hShVsSGLs.tEhhhV.hFAc+.p.sho     
+   consensus/80%                     cssAusp.sspu.................hhcp.su+tcsEhhusspRsp+.hShVsSGLsPpEhhhVpKFAcKpp.oho     
+   consensus/70%                     +SsAAuH.sssu.h..............shhc-.su+-+PElsuoTcRsp+chSMVsSGLTPcEhhlVpKFARKaclTLT     
+
+                     cov    pid 2161          .         .         .         2         .         .         .         . 2240
+ 1 XP_019673495.1 100.0% 100.0%      NVISEETTHVIMKTDA--EFVCERTLKYFLGIAGGRWV---VSYFWVTQSI-----KERKMLDEHDFEVRGDVVNGRNHQ     
+ 2 NP_989500.1     86.3%  30.0%      NHITDGTTHVIMKTDE--ELVCERTLKYFLGIAGRKWV---VSYQWIIQSF-----KEGRILDEEHFEVKGDVINGRNHQ     
+ 3 AAG43492.1      99.2%  75.8%      NLITEETTHVVMKTDA--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KERKMLNEHDFEVRGDVVNGRNHQ     
+ 4 XP_024835433.1  95.6%  70.8%      NLITEETTHVIMKTDP--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KEGKMLDEHDFEVRGDVVNGRNHQ     
+ 5 NP_001013434.1  99.8%  81.6%      NLISEETTHVIMKTDA--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KERKILDEHDFEVRGDVVNGRNHQ     
+ 6 XP_028992611.1  75.3%  12.4%      ELTTALGELIDVNVDVFMEFLKSKGINS-LGVRAHAEILRLVATLLILQLMRLVKQKEGKLLRTL-FSLEESEPRPRHWE     
+ 7 AAC37594.1      99.2%  75.3%      NLITEETTHVVMKTDA--EFVCERTLKYFLGIAGGKWV---VSYFWVTQSI-----KERKMLNEHDFEVRGDVVNGRNHQ     
+ 8 XP_028557582.1  83.1%  28.6%      NKISYETTHVVMKTDE--DLVCERTLKYFLGIAGRKWV---VSYHWVVQSL-----KERRVLNEEDFEVRGDMINGRNHQ     
+ 9 AAD00168.1      96.1%  53.3%      DAITEETTHVIIKTDA--EFVCERTLKYFLGIAGGKWI---VSYSWVVRSI-----QERRLLNVHEFEVKGDVVTGRNHQ     
+10 AAC36493.1      96.3%  53.0%      DVITEETTHVIIKTDA--EFVCERTLKYFLGIAGGKWI---VSYSWVIKSI-----QERKLLSVHEFEVKGDVVTGSNHQ     
+   consensus/100%                    phho..sphl.hpsD...-hlpp+slp..LGltutt.l...Vuh.hlhp.h.....pEt+hLp...Fplcts..psppap     
+   consensus/90%                     shIottTTHVlhKTD...EhVCERTLKYFLGIAGt+Wl...VSY.WlhpSh.....pEt+hLs.ccFEV+GDhlsGRNHQ     
+   consensus/80%                     shIo-ETTHVlhKTDs..EFVCERTLKYFLGIAGtKWl...VSY.WVhQSl.....KEt+hLspc-FEV+GDVlsGRNHQ     
+   consensus/70%                     NlITEETTHVlMKTDs..EFVCERTLKYFLGIAGGKWV...VSYhWVsQSI.....KERKhLsEH-FEV+GDVVNGRNHQ     
+
+                     cov    pid 2241          :         .         .         .         .         3         .         . 2320
+ 1 XP_019673495.1 100.0% 100.0%      GPKRA--------RESRDRKIFGGLEICCYGP-----------FTNMPTDQLEWMVRLCGASVVKRPSLFTLSKATHPVV     
+ 2 NP_989500.1     86.3%  30.0%      GPKRA--------RQSPAEKIFKDFEICCCGP-----------FTDMTTGHLEWIVELCGASVVKQLHLFTHKVNSTAVV     
+ 3 AAG43492.1      99.2%  75.8%      GPKRA--------RESQDRKIFRGLEICCYGP-----------FTNMPTDQLEWMVQLCGASVVKELSSFTLGTGVHPIV     
+ 4 XP_024835433.1  95.6%  70.8%      GPKRA--------RESRDKKIFKGLEICCYGP-----------FTNMPTG----YPPSCGRA------------------     
+ 5 NP_001013434.1  99.8%  81.6%      GPKRARE---SQDRESQDRKIFRGLEICCYGP-----------FTNMPTDQLEWMVHLCGASVVKEPSLFTLSKGTHPVV     
+ 6 XP_028992611.1  75.3%  12.4%      QMKRAVKWVCWAERQYPC--IYSRLE---FGSSWESATRQLLGFEDLPP-----LSPLVGLNLQK--------------I     
+ 7 AAC37594.1      99.2%  75.3%      GPKRA--------RESQDRKIFRGLEICCYGP-----------FTNMPTDQLEWMVQLCGASVVKELSSFTLGTGVHPIV     
+ 8 XP_028557582.1  83.1%  28.6%      GPKRA--------RESPVGKLFQGLEICCYGP-----------FTDMLPEQLEWMVELSGASIVKEPRLFSHSTNSTAVV     
+ 9 AAD00168.1      96.1%  53.3%      GPRRS--------RESRE-KLFKGLQVYCCEP-----------FTNMPKDELERMLQLCGASVVKELPSLTHDTGAHLVV     
+10 AAC36493.1      96.3%  53.0%      GPRRS--------RESQE-KLFEGLQIYCCEP-----------FTNMPKDELERMLQLCGASVVKELPLLTRDTGAHPIV     
+   consensus/100%                    t.+Ru........Rp.....latthp...hts...........Fpsh.......h...sGhs..................     
+   consensus/90%                     GP+Ru........RpS.t.KlFpsLplhChtP...........FTsMs.t....h..LsGtul.K..............l     
+   consensus/80%                     GPKRA........RES.s.KlFpGLEIhChGP...........FTsMPsspLEhhlpLCGASlVKp...hohthssp.lV     
+   consensus/70%                     GPKRA........RESp-tKIFcGLEICCaGP...........FTNMPs-pLEhMlpLCGASVVKc...hThspsspslV     
+
+                     cov    pid 2321          .         .         :         .         .         .         ] 2390
+ 1 XP_019673495.1 100.0% 100.0%      VVQPDAWTEDSGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PRATADLSQPCV     
+ 2 NP_989500.1     86.3%  30.0%      VVQPDAWMEGTSYEAIQRKNNVAVVTREWVLDSVACFECQELDAYLVSQD--------------------     
+ 3 AAG43492.1      99.2%  75.8%      VVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PHSHY-------     
+ 4 XP_024835433.1  95.6%  70.8%      -----AGCLDRG-------CWLP---------------CDRADV--------------------------     
+ 5 NP_001013434.1  99.8%  81.6%      VVQPDAWTEDSGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PRTAADSSQPCV     
+ 6 _028992611.1  75.3%  12.4%      KKNP-----------LPSRCS-----------STGSSTGSSTDSSTVSST----DSSWEN----------     
+ 7 AAC37594.1      99.2%  75.3%      VVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQI--------PHSHY-------     
+ 8 XP_028557582.1  83.1%  28.6%      VVQPEAWSEDTACQGIPPQCSATVVSREWMLDSIACYQRQAFDEYIVQQV--------------------     
+ 9 AAD00168.1      96.1%  53.3%      IVQPSAWTEDSNCPDIGQLCKARLVMWDWVLDSLSSYRCRDLDAYLVQNITC--DSSEPQDSND------     
+10 AAC36493.1      96.3%  53.0%      LVQPSAWTEDNDCPDIGQLCKGRLVMWDWVLDSISVYRCRDLDAYLVQNITCGRDGSEPQDSND------
+consensus/100%                    ...................s..................tpthD...........................     
+   consensus/90%                     hhpP.Ah..sps...l...Cph..........Shu..pspphDs.hl.p.....................     
+   consensus/80%                     lVQPpAWsEDssh.sIsphCps.lV.h-WhLDSlu.apCpchDsYll.ph....................     
+   consensus/70%                     lVQPsAWoEDsuh.sIsphCpuslVhh-WVLDSluhYpCp-LDsYLl.pl.........p..........   
+   
+link to phylogenetic tree:
+
+
